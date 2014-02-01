@@ -1,0 +1,23 @@
+{
+  "name": "homepage-pereirajs",
+  "version": "0.0.0",
+  "description": "pagina web de pereirajs.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pereirajs/pagina.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pereirajs/pagina/issues"
+  },
+  "homepage": "https://github.com/pereirajs/pagina",
+  "dependencies": {
+    "http-server": "~0.6.1"
+  }
+}

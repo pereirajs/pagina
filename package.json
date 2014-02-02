@@ -1,6 +1,6 @@
 {
   "name": "homepage-pereirajs",
-  "version": "0.0.0-2",
+  "version": "0.0.1-1",
   "description": "pagina web de pereirajs.org",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,10 @@
     "http-server": "~0.6.1"
   },
   "subdomain": "pereirajs",
+  "domains": [
+    "pereirajs.org",
+    "www.pereirajs.org"
+  ],
   "engines": {
     "node": "0.10.x"
   }

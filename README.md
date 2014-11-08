@@ -2,7 +2,7 @@
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/pereirajs/pagina?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Requisitos para correr
- * NodeJS (works on 0.6, 0.8, 0.10 or 0.12)
+ * [NodeJS](https://nodejs.org/) (Funciona con las versiones 0.6, 0.8, 0.10 o 0.12)
 
 # Run!
 
@@ -21,4 +21,36 @@ npm start
 Por omision se usa el puerto **8080** pero se puede especificar cualquiera.
 Con su navegador favorito entre a http://localhost:8080
 
+## Informacion para colaborador@s
 
+Muchas gracias por leer esta parte y estar intersad@ en colaborar con el código y desarrollo de la página web del grupo, es muy facil inicar, solo necesitas instalar la herramienta de software libre [Git](http://git-scm.com/) y tener una cuenta en [Github](https://github.com/).
+
+Despues de tener la cuenta en github es necesario que hagas un "fork" del proyecto dando click en el boton "fork" de la [pagina inicial](https://github.com/pereirajs/pagina). Esto copiara el codigo a tu cuenta de github y podras modificar el codigo y subir los cambios sin problema.
+
+Ahora hay que descargar el código fuente "clonando" el repositorio. Es mucho mas rápido y comodo hacerlo desde la consola:
+
+```
+git clone git@github.com:pereirajs/pagina.git
+```
+
+Este comando creara la carpeta `pagina` y descargara alli el codigo fuente.
+
+En este punto puedes modificar el codigo todo lo que quieras y usar `npm start` para correr localmente y ver tus cambios.
+
+Recuerda siempre utilizar `git add` y `git commit` para ir marcando tus cambios. Tambien es una buena costumbre usar "branchs" aparte, pero no importa si no sabes usar "branchs".
+
+Para sincronizar los cambios con github se usa:
+
+```
+git fetch
+git pull origin master # Para descargar cambios nuevos
+```
+
+```
+git fetch
+git push origin master # Para subir tus cambios
+```
+
+Tambien como buena costumbre preferimos que se haga un "Pull Request" por los cambios que los colaboradores hace y estos a su vez son revisados e integrados a la rama principal de desarrollo.
+
+Recuerda que si tienes cualquier pregunta puedes visitar nuestro canal de chat: [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/pereirajs/pagina?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)

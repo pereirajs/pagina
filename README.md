@@ -53,4 +53,16 @@ git push origin master # Para subir tus cambios
 
 Tambien como buena costumbre preferimos que se haga un "Pull Request" por los cambios que los colaboradores hace y estos a su vez son revisados e integrados a la rama principal de desarrollo.
 
-Recuerda que si tienes cualquier pregunta puedes visitar nuestro canal de chat: [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/pereirajs/pagina?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+### Tecnologias o projectos usados
+
+ * [NodeJS](https://nodejs.org/) (Funciona con las versiones 0.6, 0.8, 0.10 o 0.12)
+ * [http-server](http://browsenpm.org/package/http-server) Para correr el server localmente y en el server
+ * [Bootstrap](http://getbootstrap.com) Excelente ayuda CSS listo para ser usado en el HTML
+
+## Preguntas, dudas, comentarios, sugerencias.
+
+Puede reportar un problema o sugerir cambios usando [la pagina de Issues de Github](https://github.com/pereirajs/pagina/issues) desde alli cree un nuevo Issue y deje su sugerencia o comentario.
+
+Si cree que es algo irrelevante con el codigo de la pagina, sientase libre de contactarnos en info@pereirajs.org
+
+Tambien puedes visitar nuestro canal de chat: [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/pereirajs/pagina?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)

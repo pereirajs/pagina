@@ -66,3 +66,45 @@ Puede reportar un problema o sugerir cambios usando [la pagina de Issues de Gith
 Si cree que es algo irrelevante con el codigo de la pagina, sientase libre de contactarnos en info@pereirajs.org
 
 Tambien puedes visitar nuestro canal de chat: [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/pereirajs/pagina?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+# Información de desarrollo
+
+El sistema de templates usado es Mustache, la gerarquia de archivos es: 
+```
++ css/
+    agency.css
+    jumbotron.css
++ images/
+    buritica.jpg
+    favicon.ico
+    header-bg.jpg
+    jsconf.co.jpg
+    logo-nodejitsu.png
+    logo-parque.png
+    LogoOficial.png
+    LogoPeq.png
+    Octocat.png
+    rompmurosweb.jpg
+    sirius.png
+    Twitter_logo_blue.png
+    vivelab-logo.jpeg
++ js/
+    agency.js
+    cbpAnimatedHeader.js
+    classie.js
+    contact_me.js
+    jqBootstrapValidation.js
+    pereira.js
+  acercade.html
+  aliados.html
+  contacto.html
+  evento.html
+  index.html 
+  package.json
+  README.md
+  templates.html 
+
+```
+
+en el archivo templates.html estan los templates de la pagina, el javascript donde se renderizan los templates
+es js/pereira.js.

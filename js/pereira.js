@@ -13,7 +13,7 @@ function render(templateName, data) {
      * Render a template with data provided.
     */ 
    if(data==undefined) data={};
-   return Mustache.to_html($("#"+templateName).text(), data).replace(/^\s*/mg, ''); 
+   return Mustache.render($("#"+templateName).text(), data).replace(/^\s*/mg, '');
 }
 
 function loadTemplates(callback) {

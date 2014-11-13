@@ -17,47 +17,38 @@ function render(templateName, data) {
 }
 
 function loadTemplates(callback) {
-     $.get("templates.html").success(function (data) {
+     $.get("templates.html").done(function (data) {
         $("body").append('<div id="templates_container" style="display:none"></div>');
         $("#templates_container").html(data);
-        console.log("templates loaded...");
         callback();
-     });  
+     });
+}
+
+/**
+ * loadData(file, callback)
+ *
+ * @description Se encarga de llamar el archivo JSON solicitado y de pasarlo al callback
+ *
+ * @param {string} file nombre del archivo donde esta la data en el server-side.
+ * @param {Function} callback la funcion a la cual le pasa la informacion
+ */
+function loadData(file, callback) {
+  if (!file) {
+    return callback(new Error('Nombre de archivo para carga la data no valido'));
+  }
+
+  $.getJSON(file).fail(function (e) {
+    alert('Error: ' + JSON.stringify(e));
+  }).done(callback);
 }
 
 function Main() {
-   loadTemplates(function () {
-      $("#objectives").html(render(
-          "template-objectives",
-          {
-            title: "Objetivos",
-            description: "En la comunidad Pereira.JS tenemos 4 objetivos principales.",
-            objective_width:3,
-            objectives: [
-              {
-                objective_name:"Ayudar", 
-                objective_description:"Ayudar a las personas que deseen obtener conocimientos de Javascript y tecnologías afines.",
-                font_icon: "fa-users"
-              },
-              {
-                objective_name:"Crear", 
-                objective_description:"Crear y fortalecer relaciones entre aficionados a Javascript que permitan crecimiento personal y profecional, permitiendo que nuevos miembros (sin restricción) se incorporen para así enriquecer la comunidad guiados por un ambiente de respeto hacia los demás.",
-                font_icon: "fa-paint-brush"
-              },
-              {
-                objective_name:"Impulsar el crecimiento y desarrollo", 
-                objective_description:"Impulsar el crecimiento y desarrollo de comunidades interesadas en temas asociados a tecnología en la ciudad de Pereira y sus alrededores haciendo uso de charlas, talleres y otras herramientas que actuen como facilitadores de tales objetivos.",
-                font_icon: "fa-rocket"
-              },
-              {
-                objective_name:"Tratar todo tipo de temas", 
-                objective_description:"iTratar todo tema que impulse los objetivos mencionados, aunque estos no sean temas de moda o no parezcan relevantes ante miembros de la comunidad.",
-                font_icon: "fa-list-alt"
-              }
-            ]
-          }
-          ));
-   }); 
+  loadTemplates(function () {
+    loadData('data.json', function (data) {
+      $("#objectives").html(render("template-objectives", data.objetivos));
+      $("#patrocinadores").html(render("template-patrocinadores", data.patrocinadores));
+    });
+  });
 }
 
 $(document).ready(function () {

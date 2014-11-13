@@ -23,6 +23,8 @@ Con su navegador favorito entre a http://localhost:8080
 
 ## Informacion para colaborador@s
 
+<<<<<<< HEAD
+=======
 Muchas gracias por leer esta parte y estar intersad@ en colaborar con el código y desarrollo de la página web del grupo, es muy facil inicar, solo necesitas instalar la herramienta de software libre [Git](http://git-scm.com/) y tener una cuenta en [Github](https://github.com/).
 
 Despues de tener la cuenta en github es necesario que hagas un "fork" del proyecto dando click en el boton "fork" de la [pagina inicial](https://github.com/pereirajs/pagina). Esto copiara el codigo a tu cuenta de github y podras modificar el codigo y subir los cambios sin problema.
@@ -67,6 +69,7 @@ Si cree que es algo irrelevante con el codigo de la pagina, sientase libre de co
 
 Tambien puedes visitar nuestro canal de chat: [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/pereirajs/pagina?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+>>>>>>> a19d64b3856b10f0e80a900b085c72f1e88d065f
 # Información de desarrollo
 
 El sistema de templates usado es Mustache, la gerarquia de archivos es: 
@@ -107,6 +110,10 @@ El sistema de templates usado es Mustache, la gerarquia de archivos es:
 ```
 
 en el archivo templates.html estan los templates de la pagina, el javascript donde se renderizan los templates
+<<<<<<< HEAD
 es js/pereira.js.
 
 
+=======
+es js/pereira.js.
+>>>>>>> a19d64b3856b10f0e80a900b085c72f1e88d065f

@@ -51,6 +51,22 @@ function loadData(file, callback) {
   }).done(callback);
 }
 
+/**
+ * renderColaboradores(colaboradores)
+ *
+ * @description Se encarga de tomar el array de colaboradores, generar el hash para 
+ *               traer su avatar de gravatar y renderizar tdo en la seccion team.
+ *
+ * @param {Array} colaboradores Matriz de colaboradores
+ */
+function renderColaboradores (colaboradores) {
+  var conHashes = colaboradores.map(function (uno) {
+    uno.hash = md5(uno.email.trim().toLowerCase());
+    return uno;
+  });
+  $("#team").html(render("template-colaboradores", { colaboradores: conHashes }));
+}
+
 function Main() {
   loadTemplates(function () {
     loadData('data.json', function (data) {
@@ -59,6 +75,8 @@ function Main() {
 
       // Un hack para agregar esa clase a un elemento de por medio
       $("#patrocinadores li:odd").addClass("timeline-inverted");
+
+      renderColaboradores(data.colaboradores);
     });
   });
 }

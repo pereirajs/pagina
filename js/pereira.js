@@ -77,6 +77,9 @@ function Main() {
       $("#patrocinadores li:odd").addClass("timeline-inverted");
 
       renderColaboradores(data.colaboradores);
+      $('[data-spy="scroll"]').each(function () {
+        var $spy = $(this).scrollspy('refresh')
+      })
     });
   });
 }

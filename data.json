@@ -76,5 +76,37 @@
         "font_icon": "fa-list-alt"
       }
     ]
-  }
+  },
+  "colaboradores": [
+    {
+      "email":"aristizabal.daniel@gmail.com",
+      "nombre":"Daniel Aristizabal",
+      "twitter": "cronopio2",
+      "github": "cronopio"
+    },
+    {
+      "email":"oscar.andres.granada@gmail.com",
+      "nombre":"Oscar Andrés Granada Baquero",
+      "twitter": "oagranada ",
+      "github": "ogranada"
+    },
+    {
+      "email":"jhonb3r@gmail.com",
+      "nombre":"Jhon Jimenez",
+      "twitter": "jh0nb3r",
+      "github": "jhonber "
+    },
+    {
+      "email":"manuel.felipe.pineda@gmail.com",
+      "nombre":"Manuel Pineda",
+      "twitter": "pin3da_",
+      "github": "pin3da"
+    },
+    {
+      "email":"exactlimon@gmail.com",
+      "nombre":"Santiago Bernal",
+      "twitter": "santiaguf",
+      "github": "santiag"
+    }
+  ]
 }

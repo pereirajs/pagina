@@ -1,58 +1,55 @@
 {
-  "patrocinadores": {
-    "descripcion": "Todas las actividades realizadas son posibles gracias a:",
-    "patrocinadores": [
-        {
-          "nombre":"Parquesoft Pereira",
-        "descripcion": "Parquesoft Pereira bajo la dirección de Alexander Cadavid, se ha comprometido con la comunidad y nos brindará su apoyo y colaboración con la designación del espacio a utilizar por el grupo en sus reuniones mensuales.",
-        "logo": "/images/patrocinadores/logo-parque.png",
-        "link": "http://www.parquesoftpereira.com/",
-        "patrocinio": "Espacio fisico."
-      },
-      {
-        "nombre": "ViveLab Pereira",
-        "descripcion":"Gracias a Parquesoft Pereira podemos contar con el espacio ViveLab para la realización de reuniones y talleres. Contaremos con computadores para la realización de talleres, los miembros del grupo podrán usarlos durante el evento.",
-        "logo":"/images/patrocinadores/vivelab-logo.jpeg",
-        "link":"https://twitter.com/ViveLabPereira",
-        "patrocinio":"Espacio fisico."
-      },
-      {
-        "nombre": "Rompemuros",
-        "descripcion":"El NUEVO Router <a href=\"http://www.rompemuros.com\" target=\"_blank\">Rompemuros 3Bumen 2014</a> mantiene la mayor potencia y alcance entre todos los routers actuales, mezcla la tecnología Propia 3bumen High Power y una maravillosa potencia de 1000 Mw, para lograr un cubrimiento superior.<br><br>La compañía <a href=\"http://www.3bumen.com/es/inicio.html\" targe=\"_blank\">3Bumen</a> detras del router rompemuros, ha decidido patrocinar PereiraJS.",
-        "logo":"/images/patrocinadores/rompmurosweb.jpg",
-        "link":"http://www.rompemuros.com/",
-        "patrocinio":"Comida y bebidas."
-      },
-      {
-        "nombre":"Nodejitsu",
-        "descripcion":"Especial agradecimiento a <a href=\"https://www.nodejitsu.com/\" target=\"_blank\">Nodejitsu</a> por alojar sin ningun costo nuestro sitio web.<br><br>Nodejitsu es una Plataforma como Servicio (PaaS) que ofrece el alojamiento de aplicaciones hechas usando la emergente tecnología <a href=\"http://www.nodejs.org/\" target=\"_blank\">Node.js</a><br><br>Dentro de su compromiso con el Software Libre y Open Source, Nodejitsu apoya diferentes eventos internacionales, tambien apoyan los grupos locales de JavaScript. En este caso su compromiso se ratifica al apoyar PereiraJS.",
-        "logo":"/images/patrocinadores/logo-nodejitsu.png",
-        "link": "https://www.nodejitsu.com",
-        "patrocinio": "Hosting página web, Snacks."
-      },
-      {
-        "nombre": "Juan Pablo Buritica",
-        "descripcion":"VP of Engineering en <a href=\"https://twitter.com/ride\" target=\"_blank\">@ride</a>, organizador de <a href=\"https://twitter.com/jsconfco\" target=\"_blank\">@jsconfco</a>, <a href=\"https://twitter.com/bogotajs\" target=\"_blank\">@bogotaJS</a>, <a href=\"https://twitter.com/code_rise\" target=\"_blank\">@code_rise</a>. Esforzandose en mejorar el ambiente LatAm/Latino tecnológico. Chef y Quimico en una vida pasada.<br><br>Gracias al apoyo de Juan Pablo Buritica contamos con comida, bebidas y cerveza para nuestra tercera reunión.",
-        "logo":"/images/patrocinadores/buritica.jpg",
-        "link":"https://twitter.com/buritica",
-        "patrocinio":"Comida, bebidas y CERVEZA!"
-      },
-      {
-        "nombre": "Grupo de Investigación Sirius",
-        "descripcion":"El <a href=\"http://sirius.utp.edu.co/\" target=\"_blank\">Grupo de Investigación Sirius</a> surgió con el objetivo de fomentar los desarrollos en las áreas de la electrónica digital, lógica programable y arquitectura de computadores en el programa de <a href=\"http://isc.utp.edu.co/\" target=\"_blank\">Ingeniería de Sistemas y Computación</a> de la <a href=\"http://www.utp.edu.co/\" target=\"_blank\">Universidad Tecnológica de Pereira.</a><br><br>Actualmente el Grupo de Investigación Sirius cuenta con dos laboratorios: <a href=\"http://sirius.utp.edu.co/sirius/?q=node/10\" target=\"_blank\">Sirius HPC</a> y <a href=\"http://sirius.utp.edu.co/sirius/?q=node/11\" target=\"_blank\">Sirius ITS.</a> En estos dos laboratorios Sirius cuenta con un grupo interdisciplinario de profesionales que han desarrollado exitosamente múltiples proyectos con diversos clientes en diferentes áreas, los cuales le han asegurado un buen nombre dentro de la comunidad académica y profesional en la región cafetera de Colombia.",
-        "logo":"/images/patrocinadores/sirius.png",
-        "link":"http://sirius.utp.edu.co/",
-        "patrocinio":"Comida y bebidas."
-      },
-      {
-        "nombre": "",
-        "descripcion":"",
-        "logo":"",
-        "link":"",
-        "patrocinio":""
-      }
-    ]
-  },
+  "patrocinadores": [
+    {
+      "nombre":"Parquesoft Pereira",
+      "descripcion": "Parquesoft Pereira bajo la dirección de Alexander Cadavid, se ha comprometido con la comunidad y nos brindará su apoyo y colaboración con la designación del espacio a utilizar por el grupo en sus reuniones mensuales.",
+      "logo": "/images/patrocinadores/logo-parque.png",
+      "link": "http://www.parquesoftpereira.com/",
+      "patrocinio": "Espacio fisico."
+    },
+    {
+      "nombre": "ViveLab Pereira",
+      "descripcion":"Gracias a Parquesoft Pereira podemos contar con el espacio ViveLab para la realización de reuniones y talleres. Contaremos con computadores para la realización de talleres, los miembros del grupo podrán usarlos durante el evento.",
+      "logo":"/images/patrocinadores/vivelab-logo.jpeg",
+      "link":"https://twitter.com/ViveLabPereira",
+      "patrocinio":"Espacio fisico."
+    },
+    {
+      "nombre": "Rompemuros",
+      "descripcion":"El NUEVO Router <a href=\"http://www.rompemuros.com\" target=\"_blank\">Rompemuros 3Bumen 2014</a> mantiene la mayor potencia y alcance entre todos los routers actuales, mezcla la tecnología Propia 3bumen High Power y una maravillosa potencia de 1000 Mw, para lograr un cubrimiento superior.<br><br>La compañía <a href=\"http://www.3bumen.com/es/inicio.html\" targe=\"_blank\">3Bumen</a> detras del router rompemuros, ha decidido patrocinar PereiraJS.",
+      "logo":"/images/patrocinadores/rompmurosweb.jpg",
+      "link":"http://www.rompemuros.com/",
+      "patrocinio":"Comida y bebidas."
+    },
+    {
+      "nombre":"Nodejitsu",
+      "descripcion":"Especial agradecimiento a <a href=\"https://www.nodejitsu.com/\" target=\"_blank\">Nodejitsu</a> por alojar sin ningun costo nuestro sitio web.<br><br>Nodejitsu es una Plataforma como Servicio (PaaS) que ofrece el alojamiento de aplicaciones hechas usando la emergente tecnología <a href=\"http://www.nodejs.org/\" target=\"_blank\">Node.js</a><br><br>Dentro de su compromiso con el Software Libre y Open Source, Nodejitsu apoya diferentes eventos internacionales, tambien apoyan los grupos locales de JavaScript. En este caso su compromiso se ratifica al apoyar PereiraJS.",
+      "logo":"/images/patrocinadores/logo-nodejitsu.png",
+      "link": "https://www.nodejitsu.com",
+      "patrocinio": "Hosting página web, Snacks."
+    },
+    {
+      "nombre": "Juan Pablo Buritica",
+      "descripcion":"VP of Engineering en <a href=\"https://twitter.com/ride\" target=\"_blank\">@ride</a>, organizador de <a href=\"https://twitter.com/jsconfco\" target=\"_blank\">@jsconfco</a>, <a href=\"https://twitter.com/bogotajs\" target=\"_blank\">@bogotaJS</a>, <a href=\"https://twitter.com/code_rise\" target=\"_blank\">@code_rise</a>. Esforzandose en mejorar el ambiente LatAm/Latino tecnológico. Chef y Quimico en una vida pasada.<br><br>Gracias al apoyo de Juan Pablo Buritica contamos con comida, bebidas y cerveza para nuestra tercera reunión.",
+      "logo":"/images/patrocinadores/buritica.jpg",
+      "link":"https://twitter.com/buritica",
+      "patrocinio":"Comida, bebidas y CERVEZA!"
+    },
+    {
+      "nombre": "Grupo de Investigación Sirius",
+      "descripcion":"El <a href=\"http://sirius.utp.edu.co/\" target=\"_blank\">Grupo de Investigación Sirius</a> surgió con el objetivo de fomentar los desarrollos en las áreas de la electrónica digital, lógica programable y arquitectura de computadores en el programa de <a href=\"http://isc.utp.edu.co/\" target=\"_blank\">Ingeniería de Sistemas y Computación</a> de la <a href=\"http://www.utp.edu.co/\" target=\"_blank\">Universidad Tecnológica de Pereira.</a><br><br>Actualmente el Grupo de Investigación Sirius cuenta con dos laboratorios: <a href=\"http://sirius.utp.edu.co/sirius/?q=node/10\" target=\"_blank\">Sirius HPC</a> y <a href=\"http://sirius.utp.edu.co/sirius/?q=node/11\" target=\"_blank\">Sirius ITS.</a> En estos dos laboratorios Sirius cuenta con un grupo interdisciplinario de profesionales que han desarrollado exitosamente múltiples proyectos con diversos clientes en diferentes áreas, los cuales le han asegurado un buen nombre dentro de la comunidad académica y profesional en la región cafetera de Colombia.",
+      "logo":"/images/patrocinadores/sirius.png",
+      "link":"http://sirius.utp.edu.co/",
+      "patrocinio":"Comida y bebidas."
+    },
+    {
+      "nombre": "",
+      "descripcion":"",
+      "logo":"",
+      "link":"",
+      "patrocinio":""
+    }
+  ],
   "objetivos": {
     "title": "Objetivos",
     "description": "En la comunidad Pereira.JS tenemos 4 objetivos principales.",

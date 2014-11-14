@@ -46,7 +46,10 @@ function Main() {
   loadTemplates(function () {
     loadData('data.json', function (data) {
       $("#objectives").html(render("template-objectives", data.objetivos));
-      $("#patrocinadores").html(render("template-patrocinadores", data.patrocinadores));
+      $("#patrocinadores").html(render("template-patrocinadores", data));
+
+      // Un hack para agregar esa clase a un elemento de por medio
+      $("#patrocinadores li:odd").addClass("timeline-inverted");
     });
   });
 }

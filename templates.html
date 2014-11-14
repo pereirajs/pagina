@@ -1,26 +1,64 @@
-
-<script id="template-objectives" type="test/template"><div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                  <h2 class="section-heading">{{title}}</h2>
-                  <h3 class="section-subheading text-muted">{{description}}</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                {{#objectives}}
-                <div class="col-md-{{#objective_width}}{{objective_width}}{{/objective_width}}{{^objective_width}}4{{/objective_width}}">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa {{font_icon}} fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">{{objective_name}}</h4>
-                    <p class="text-muted">{{objective_description}}</p>
-                </div>
-                {{/objectives}}
+<script id="template-objectives" type="test/template">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading">{{title}}</h2>
+              <h3 class="section-subheading text-muted">{{description}}</h3>
             </div>
         </div>
-
+        <div class="row text-center">
+            {{#objectives}}
+            <div class="col-md-{{#objective_width}}{{objective_width}}{{/objective_width}}{{^objective_width}}4{{/objective_width}}">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa {{font_icon}} fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="service-heading">{{objective_name}}</h4>
+                <p class="text-muted">{{objective_description}}</p>
+            </div>
+            {{/objectives}}
+        </div>
+    </div>
 </script>
-
+<script type="test/template" id="template-patrocinadores">
+    <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Patrocinadores</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        {{#patrocinadores}}
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="{{logo}}" alt="Logo {{nombre}}">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>{{nombre}}</h4>
+                                    <!-- <h4 class="subheading">Our Humble Beginnings</h4> -->
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">{{{descripcion}}}</p>
+                                    <p><strong>Patrocina:</strong> {{patrocinio}}</p>
+                                    <a href="{{link}}" target="_blank" class="btn btn-info btn-xs">Más Informacion..</a>
+                                </div>
+                            </div>
+                        </li>
+                        {{/patrocinadores}}
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4><a href="#contact" class="text-primary" style="color:#fff;">Quiero
+                                    <br>Patrocinar!</a></h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</script>
 
 

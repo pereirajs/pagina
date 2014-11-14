@@ -23,7 +23,7 @@
     },
     {
       "nombre":"Nodejitsu",
-      "descripcion":"Especial agradecimiento a <a href=\"https://www.nodejitsu.com/\" target=\"_blank\">Nodejitsu</a> por alojar por ningun costo nuestro sitio web.<br><br>Nodejitsu es una Plataforma como Servicio (PaaS) que ofrece el alojamiento de aplicaciones hechas usando la emergente tecnología <a href=\"http://www.nodejs.org/\" target=\"_blank\">Node.js</a><br><br>Dentro de su compromiso con el Software Libre y Open Source, Nodejitsu apoya diferentes eventos internacionales, tambien apoyan los grupos locales de JavaScript. En este caso su compromiso se ratifica al apoyar PereiraJS.",
+      "descripcion":"Especial agradecimiento a <a href=\"https://www.nodejitsu.com/\" target=\"_blank\">Nodejitsu</a> por alojar sin ningun costo nuestro sitio web.<br><br>Nodejitsu es una Plataforma como Servicio (PaaS) que ofrece el alojamiento de aplicaciones hechas usando la emergente tecnología <a href=\"http://www.nodejs.org/\" target=\"_blank\">Node.js</a><br><br>Dentro de su compromiso con el Software Libre y Open Source, Nodejitsu apoya diferentes eventos internacionales, tambien apoyan los grupos locales de JavaScript. En este caso su compromiso se ratifica al apoyar PereiraJS.",
       "logo":"/images/patrocinadores/logo-nodejitsu.png",
       "link": "https://www.nodejitsu.com",
       "patrocinio": "Hosting página web, Snacks."

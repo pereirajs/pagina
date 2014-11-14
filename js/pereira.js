@@ -1,21 +1,30 @@
 
 /*
-Pereirajs
-=========
-Pereira.JS Javascript mainfile.
+ * Pereirajs
+ * =========
+ * Pereira.JS Javascript mainfile.
+*/
 
-
+/**
+ * render(templateName, data)
+ *
+ * @description renderiza un template especifico con los datos pasados como parametro.
+ *
+ * @param {Function} nombre del template.
+ * @param {Function} datos para renderizar.
  */
-
 function render(templateName, data) {
-    /* render
-     * ======
-     * Render a template with data provided.
-    */ 
    if(data==undefined) data={};
    return Mustache.render($("#"+templateName).text(), data).replace(/^\s*/mg, '');
 }
 
+/**
+ * loadTemplates(callback)
+ *
+ * @description Se encarga de cargar los templates necesarios para la pagina, luego llama un callback.
+ *
+ * @param {Function} callback la funcion, éste se ejecuta al terminar de descargar los templates.
+ */
 function loadTemplates(callback) {
      $.get("templates.html").done(function (data) {
         $("body").append('<div id="templates_container" style="display:none"></div>');
@@ -46,7 +55,7 @@ function Main() {
   loadTemplates(function () {
     loadData('data.json', function (data) {
       $("#objectives").html(render("template-objectives", data.objetivos));
-      $("#patrocinadores").html(render("template-patrocinadores", data));
+      $("#patrocinadores").html(render("template-patrocinadores", data.patrocinadores));
 
       // Un hack para agregar esa clase a un elemento de por medio
       $("#patrocinadores li:odd").addClass("timeline-inverted");

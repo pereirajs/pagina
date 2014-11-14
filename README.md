@@ -69,7 +69,7 @@ Tambien puedes visitar nuestro canal de chat: [![Gitter](https://badges.gitter.i
 
 # Información de desarrollo
 
-El sistema de templates usado es Mustache, la gerarquia de archivos es: 
+El sistema de templates usado es Mustache, la jerarquía de archivos es: 
 ```
 + css/
     agency.css

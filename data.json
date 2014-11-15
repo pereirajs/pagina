@@ -56,24 +56,110 @@
     "objective_width":3,
     "objectives": [
       {
-        "objective_name":"Ayudar", 
+        "objective_name":"Ayudar",
         "objective_description":"Ayudar a las personas que deseen obtener conocimientos de Javascript y tecnologías afines.",
         "font_icon": "fa-users"
       },
       {
-        "objective_name":"Crear", 
+        "objective_name":"Crear",
         "objective_description":"Crear y fortalecer relaciones entre aficionados a Javascript que permitan crecimiento personal y profecional, permitiendo que nuevos miembros (sin restricción) se incorporen para así enriquecer la comunidad guiados por un ambiente de respeto hacia los demás.",
         "font_icon": "fa-paint-brush"
       },
       {
-        "objective_name":"Impulsar el crecimiento y desarrollo", 
+        "objective_name":"Impulsar el crecimiento y desarrollo",
         "objective_description":"Impulsar el crecimiento y desarrollo de comunidades interesadas en temas asociados a tecnología en la ciudad de Pereira y sus alrededores haciendo uso de charlas, talleres y otras herramientas que actuen como facilitadores de tales objetivos.",
         "font_icon": "fa-rocket"
       },
       {
-        "objective_name":"Tratar todo tipo de temas", 
+        "objective_name":"Tratar todo tipo de temas",
         "objective_description":"Tratar todo tema que impulse los objetivos mencionados, aunque estos no sean temas de moda o no parezcan relevantes ante miembros de la comunidad.",
         "font_icon": "fa-list-alt"
+      }
+    ]
+  },
+  "evento": {
+    "description": "La entrada a las reuniones será gratuita con reservacion previa, la agenda contara con máximo 2 conferencias, después de las conferencias acostumbramos charlar entre todos y compartir algún snack y bebida.",
+    "eventos": [
+      {
+        "nombre": "JavaScript Historia y aplicaciones",
+        "descripcion": "",
+        "url_slides": "http://jhonber.github.io/slides",
+        "speakers": [
+          {
+            "nombre_speaker": "@jhonber",
+            "url_contacto": "https://twitter.com/jh0nb3r"
+          },
+          {
+            "nombre_speaker": "@pin3da",
+            "url_contacto": "https://twitter.com/pin3da"
+          }
+        ]
+      },
+      {
+        "nombre": "Introducción a JavaScript Client Side",
+        "descripcion": "",
+        "url_slides": "http://jhonber.github.io/slides2",
+        "speakers": [
+          {
+            "nombre_speaker": "@jhonber",
+            "url_contacto": "https://twitter.com/jh0nb3r"
+          }
+        ]
+      },
+      {
+        "nombre": "Programación Orientada a Objetos con JavaScript",
+        "descripcion": "",
+        "url_slides": "https://www.dropbox.com/s/vzz4bl9fdqg1zzt/Javascript%20O.O..pdf",
+        "speakers": [
+          {
+            "nombre_speaker": "@oagranada",
+            "url_contacto": "https://twitter.com/oagranada"
+          }
+        ]
+      },
+      {
+        "nombre": "Aprendiendo JavaScript I",
+        "descripcion": "",
+        "url_slides": "http://ogranada.github.io/aprendiendo_javascript_1",
+        "speakers": [
+          {
+            "nombre_speaker": "@oagranada",
+            "url_contacto": "https://twitter.com/oagranada"
+          }
+        ]
+      },
+      {
+        "nombre": "Aprendiendo JavaScript II",
+        "descripcion": "",
+        "url_slides": "http://ogranada.github.io/aprendiendo_javascript_2",
+        "speakers": [
+          {
+            "nombre_speaker": "@oagranada",
+            "url_contacto": "https://twitter.com/oagranada"
+          }
+        ]
+      },
+      {
+        "nombre": "Aprendiendo JavaScript III",
+        "descripcion": "",
+        "url_slides": "http://ogranada.github.io/aprendiendo_javascript_3",
+        "speakers": [
+          {
+            "nombre_speaker": "@oagranada",
+            "url_contacto": "https://twitter.com/oagranada"
+          }
+        ]
+      },
+      {
+        "nombre": "Introducción a JavaScript Server-Side",
+        "descripcion": "",
+        "url_slides": "http://fcbosque.nodejitsu.com/nodejs",
+        "speakers": [
+          {
+            "nombre_speaker": "@cronopio",
+            "url_contacto": "https://twitter.com/cronopio2"
+          }
+        ]
       }
     ]
   },

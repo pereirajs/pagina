@@ -71,6 +71,7 @@ function Main() {
   loadTemplates(function () {
     loadData('data.json', function (data) {
       $("#objectives").html(render("template-objectives", data.objetivos));
+      $("#evento").html(render("template-evento", data.evento));
       $("#patrocinadores").html(render("template-patrocinadores", data));
 
       // Un hack para agregar esa clase a un elemento de por medio

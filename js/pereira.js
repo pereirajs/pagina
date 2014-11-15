@@ -54,8 +54,8 @@ function loadData(file, callback) {
 /**
  * renderColaboradores(colaboradores)
  *
- * @description Se encarga de tomar el array de colaboradores, generar el hash para 
- *               traer su avatar de gravatar y renderizar tdo en la seccion team.
+ * @description Se encarga de tomar el array de colaboradores, generar el hash para
+ *               traer su avatar de gravatar y renderizar todo en la seccion team.
  *
  * @param {Array} colaboradores Matriz de colaboradores
  */
@@ -71,6 +71,7 @@ function Main() {
   loadTemplates(function () {
     loadData('data.json', function (data) {
       $("#objectives").html(render("template-objectives", data.objetivos));
+      $("#evento").html(render("template-evento", data.evento));
       $("#patrocinadores").html(render("template-patrocinadores", data));
 
       // Un hack para agregar esa clase a un elemento de por medio

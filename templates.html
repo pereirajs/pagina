@@ -24,33 +24,40 @@
 
 <!-- Template que renderiza la seccion de evento -->
 <script type="text/template" id="template-evento">
-  <div class="container">
+  <div class="container" id="portfolio">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">Evento</h2>
-        <h3 class="section-subheading text-muted">{{description}}</h3>
+        <h3 class="section-subheading text-muted">La entrada a las reuniones será gratuita con reservacion previa, la agenda contara con máximo 2 conferencias, después de las conferencias acostumbramos charlar entre todos y compartir algún snack y bebida.</h3>
       </div>
     </div>
 
     <div class="row">
-      {{#eventos}}
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a href="{{url_slides}}" class="portfolio-link" data-toggle="modal">
+      {{#eventos_pasados}}
+      <div class="col-md-4 col-sm-6 portfolio-item"style="min-height:40em;">
+        <a data-toggle="modal" class="portfolio-link" href="#portfolioModal1">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
-              <h4>{{nombre}}</h4>
-              <p class="text-muted">{{descripcion}}</p>
+              <i class="fa fa-plus fa-3x"></i>
             </div>
           </div>
+          <img alt="{{nombre}}" class="img-responsive img-thumbnail" src="{{photo}}">
         </a>
         <div class="portfolio-caption">
-          <h4> Speaker(s)</h4>
-          {{#speakers}}
-            <p class="text-muted"><a href="{{url_contacto}}">{{nombre_speaker}}</a></p>
-          {{/speakers}}
+          <h4>{{nombre}}</h4>
+          {{#conferencias}}
+            <p class="text-muted">
+                {{^url_slides}}
+                    {{nombre}}
+                {{/url_slides}}
+                {{#url_slides}}
+                    <a href="{{url_slides}}">{{nombre}}</a>
+                {{/url_slides}}
+            </p>
+          {{/conferencias}}
         </div>
       </div>
-      {{/eventos}}
+      {{/eventos_pasados}}
     </div>
   </div>
 </script>

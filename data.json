@@ -78,88 +78,171 @@
     ]
   },
   "evento": {
-    "description": "La entrada a las reuniones será gratuita con reservacion previa, la agenda contara con máximo 2 conferencias, después de las conferencias acostumbramos charlar entre todos y compartir algún snack y bebida.",
-    "eventos": [
+    "eventos_pasados": [
       {
-        "nombre": "JavaScript Historia y aplicaciones",
-        "descripcion": "",
-        "url_slides": "http://jhonber.github.io/slides",
-        "speakers": [
+        "nombre": "Primera reunión",
+        "conferencias": [
           {
-            "nombre_speaker": "@jhonber",
-            "url_contacto": "https://twitter.com/jh0nb3r"
+            "nombre": "Introducción al grupo",
+            "speakers": [
+              {
+                "nombre": "Daniel Aristizbal Romero",
+                "url_contacto": "https://twitter.com/cronopio2"
+              }
+            ]
+          },{
+            "nombre": "JavaScript Historia y aplicaciones",
+            "descripcion": "",
+            "url_slides": "http://jhonber.github.io/slides",
+            "speakers": [
+              {
+                "nombre": "@jhonber",
+                "url_contacto": "https://twitter.com/jh0nb3r"
+              },
+              {
+                "nombre": "@pin3da",
+                "url_contacto": "https://twitter.com/pin3da"
+              }
+            ]
+          }
+        ],
+        "photo": "/images/fotos/primera.jpeg"
+      },
+      {
+        "nombre": "Segunda reunión",
+        "conferencias": [
+          {
+            "nombre": "JavaScript Historia y aplicaciones",
+            "descripcion": "",
+            "url_slides": "http://jhonber.github.io/slides",
+            "speakers": [
+              {
+                "nombre": "@jhonber",
+                "url_contacto": "https://twitter.com/jh0nb3r"
+              },
+              {
+                "nombre": "@pin3da",
+                "url_contacto": "https://twitter.com/pin3da"
+              }
+            ]
           },
           {
-            "nombre_speaker": "@pin3da",
-            "url_contacto": "https://twitter.com/pin3da"
+            "nombre": "Programación Orientada a Objetos con JavaScript",
+            "descripcion": "",
+            "url_slides": "https://www.dropbox.com/s/vzz4bl9fdqg1zzt/Javascript%20O.O..pdf",
+            "speakers": [
+              {
+                "nombre": "@oagranada",
+                "url_contacto": "https://twitter.com/oagranada"
+              }
+            ]
           }
-        ]
+        ],
+        "photo": "/images/fotos/segunda.jpeg"
       },
       {
-        "nombre": "Introducción a JavaScript Client Side",
-        "descripcion": "",
-        "url_slides": "http://jhonber.github.io/slides2",
-        "speakers": [
+        "nombre":"Tercera reunión",
+        "conferencias": [
           {
-            "nombre_speaker": "@jhonber",
-            "url_contacto": "https://twitter.com/jh0nb3r"
+            "nombre": "Introducción a JavaScript Client Side",
+            "descripcion": "",
+            "url_slides": "http://jhonber.github.io/slides2",
+            "speakers": [
+              {
+                "nombre": "@jhonber",
+                "url_contacto": "https://twitter.com/jh0nb3r"
+              }
+            ]
+          },
+          {
+            "nombre": "Introducción a Javascript Server Side",
+            "descripcion": "Una introduccion a Javascript del lado del servidor usando node, explicando programacion asincrona y programacion orientada a objetos",
+            "url_slides": "http://fcbosque.nodejitsu.com/nodejs",
+            "speakers": [
+              {
+                "nombre_speaker": "@cronopio",
+                "url_contacto": "https://twitter.com/cronopio2"
+              }
+            ]
           }
-        ]
+        ],
+        "photo": "/images/fotos/tercera.jpeg"
       },
       {
-        "nombre": "Programación Orientada a Objetos con JavaScript",
-        "descripcion": "",
-        "url_slides": "https://www.dropbox.com/s/vzz4bl9fdqg1zzt/Javascript%20O.O..pdf",
-        "speakers": [
+        "nombre": "Cuarta reunión",
+        "conferencias": [
           {
-            "nombre_speaker": "@oagranada",
-            "url_contacto": "https://twitter.com/oagranada"
+            "nombre": "Aprendiendo JavaScript I",
+            "descripcion": "",
+            "url_slides": "http://ogranada.github.io/aprendiendo_javascript_1",
+            "speakers": [
+              {
+                "nombre": "@oagranada",
+                "url_contacto": "https://twitter.com/oagranada"
+              }
+            ]
+          },
+          {
+            "nombre": "Inmersión en Node.js I",
+            "speakers": [
+              {
+                "nombre": "Daniel Aristizabal Romero",
+                "url_contacto": "https://twitter.com/cronopio2"
+              }
+            ]
           }
-        ]
+        ],
+        "photo": "/images/fotos/cuarta.jpeg"
       },
       {
-        "nombre": "Aprendiendo JavaScript I",
-        "descripcion": "",
-        "url_slides": "http://ogranada.github.io/aprendiendo_javascript_1",
-        "speakers": [
+        "nombre": "Quinta reunión",
+        "conferencias": [
           {
-            "nombre_speaker": "@oagranada",
-            "url_contacto": "https://twitter.com/oagranada"
+            "nombre": "Aprendiendo JavaScript II",
+            "descripcion": "",
+            "url_slides": "http://ogranada.github.io/aprendiendo_javascript_2",
+            "speakers": [
+              {
+                "nombre": "@oagranada",
+                "url_contacto": "https://twitter.com/oagranada"
+              }
+            ]
+          },
+          {
+            "nombre": "Inmersión en Node.js II",
+            "speakers": [
+              {
+                "nombre": "Daniel Aristizabal Romero",
+                "url_contacto": "https://twitter.com/cronopio2"
+              }
+            ]
           }
-        ]
+        ],
+        "photo": "/images/fotos/quinta.jpeg"
       },
       {
-        "nombre": "Aprendiendo JavaScript II",
-        "descripcion": "",
-        "url_slides": "http://ogranada.github.io/aprendiendo_javascript_2",
-        "speakers": [
+        "nombre": "Sexta reunión",
+        "conferencias": [
           {
-            "nombre_speaker": "@oagranada",
-            "url_contacto": "https://twitter.com/oagranada"
-          }
-        ]
-      },
-      {
-        "nombre": "Aprendiendo JavaScript III",
-        "descripcion": "",
-        "url_slides": "http://ogranada.github.io/aprendiendo_javascript_3",
-        "speakers": [
+            "nombre":"MV*, el camino a las web apps del futuro.",
+            "speakers": [
+              {
+                "nombre": "@oagranada",
+                "url_contacto": "https://twitter.com/oagranada"
+              }
+            ]
+          },
           {
-            "nombre_speaker": "@oagranada",
-            "url_contacto": "https://twitter.com/oagranada"
+            "nombre": "Express.js y Flatiron.js juntos pero no revueltos",
+            "speakers": [
+              {
+                "nombre": "Daniel Aristizabal Romero",
+                "url_contacto": "https://twitter.com/cronopio2"
+              }
+            ]
           }
-        ]
-      },
-      {
-        "nombre": "Introducción a JavaScript Server-Side",
-        "descripcion": "",
-        "url_slides": "http://fcbosque.nodejitsu.com/nodejs",
-        "speakers": [
-          {
-            "nombre_speaker": "@cronopio",
-            "url_contacto": "https://twitter.com/cronopio2"
-          }
-        ]
+        ],
+        "photo": "/images/fotos/sexta.jpeg"
       }
     ]
   },

@@ -477,7 +477,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #3BA9E8;
+    background-color: #fff;
 }
 
 .timeline>li .timeline-image h4 {
@@ -509,6 +509,13 @@ section h3.section-subheading {
 .timeline>li:last-child {
     margin-bottom: 0;
 }
+    .timeline > li:last-child .timeline-image {
+        background-color: #3BA9E8;
+    }
+    .timeline > li:last-child .timeline-image a {
+        color: #fff;
+        text-decoration: none;
+    }
 
 .timeline .timeline-heading h4 {
     margin-top: 0;

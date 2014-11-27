@@ -243,6 +243,30 @@
           }
         ],
         "photo": "/images/fotos/sexta.jpeg"
+      },
+      {
+        "nombre": "Septima reunión",
+        "conferencias": [
+          {
+            "nombre":"Introduccion a git y github",
+            "speakers": [
+              {
+                "nombre": "@pin3da_",
+                "url_contacto": "https://twitter.com/pin3da_"
+              }
+            ]
+          },
+          {
+            "nombre": "Express.js y Flatiron.js juntos pero no revueltos",
+            "speakers": [
+              {
+                "nombre": "Daniel Aristizabal Romero",
+                "url_contacto": "https://twitter.com/cronopio2"
+              }
+            ]
+          }
+        ],
+        "photo": "/images/fotos/sexta.jpeg"
       }
     ]
   },

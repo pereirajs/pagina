@@ -1,7 +1,7 @@
 {
   "name": "homepage-pereirajs",
   "version": "0.1.0",
-  "description": "pagina web de pereirajs.org",
+  "description": "página web de pereirajs.org",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

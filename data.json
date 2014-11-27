@@ -23,14 +23,14 @@
     },
     {
       "nombre":"Nodejitsu",
-      "descripcion":"Especial agradecimiento a <a href=\"https://www.nodejitsu.com/\" target=\"_blank\">Nodejitsu</a> por alojar sin ningun costo nuestro sitio web.<br><br>Nodejitsu es una Plataforma como Servicio (PaaS) que ofrece el alojamiento de aplicaciones hechas usando la emergente tecnología <a href=\"http://www.nodejs.org/\" target=\"_blank\">Node.js</a><br><br>Dentro de su compromiso con el Software Libre y Open Source, Nodejitsu apoya diferentes eventos internacionales, tambien apoyan los grupos locales de JavaScript. En este caso su compromiso se ratifica al apoyar PereiraJS.",
+      "descripcion":"Especial agradecimiento a <a href=\"https://www.nodejitsu.com/\" target=\"_blank\">Nodejitsu</a> por alojar sin ningún costo nuestro sitio web.<br><br>Nodejitsu es una Plataforma como Servicio (PaaS) que ofrece el alojamiento de aplicaciones hechas usando la emergente tecnología <a href=\"http://www.nodejs.org/\" target=\"_blank\">Node.js</a><br><br>Dentro de su compromiso con el Software Libre y Open Source, Nodejitsu apoya diferentes eventos internacionales, también apoyan los grupos locales de JavaScript. En este caso su compromiso se ratifica al apoyar PereiraJS.",
       "logo":"/images/patrocinadores/logo-nodejitsu.png",
       "link": "https://www.nodejitsu.com",
       "patrocinio": "Hosting página web, Snacks."
     },
     {
       "nombre": "Juan Pablo Buritica",
-      "descripcion":"VP of Engineering en <a href=\"https://twitter.com/ride\" target=\"_blank\">@ride</a>, organizador de <a href=\"https://twitter.com/jsconfco\" target=\"_blank\">@jsconfco</a>, <a href=\"https://twitter.com/bogotajs\" target=\"_blank\">@bogotaJS</a>, <a href=\"https://twitter.com/code_rise\" target=\"_blank\">@code_rise</a>. Esforzandose en mejorar el ambiente LatAm/Latino tecnológico. Chef y Quimico en una vida pasada.<br><br>Gracias al apoyo de Juan Pablo Buritica contamos con comida, bebidas y cerveza para nuestra tercera reunión.",
+      "descripcion":"VP of Engineering en <a href=\"https://twitter.com/ride\" target=\"_blank\">@ride</a>, organizador de <a href=\"https://twitter.com/jsconfco\" target=\"_blank\">@jsconfco</a>, <a href=\"https://twitter.com/bogotajs\" target=\"_blank\">@bogotaJS</a>, <a href=\"https://twitter.com/code_rise\" target=\"_blank\">@code_rise</a>. Esforzándose en mejorar el ambiente LatAm/Latino tecnológico. Chef y Químico en una vida pasada.<br><br>Gracias al apoyo de Juan Pablo Buritica contamos con comida, bebidas y cerveza para nuestra tercera reunión.",
       "logo":"/images/patrocinadores/buritica.jpg",
       "link":"https://twitter.com/buritica",
       "patrocinio":"Comida, bebidas y CERVEZA!"
@@ -149,7 +149,7 @@
           },
           {
             "nombre": "Introducción a Javascript Server Side",
-            "descripcion": "Una introduccion a Javascript del lado del servidor usando node, explicando programacion asincrona y programacion orientada a objetos",
+            "descripcion": "Una introduccion a Javascript del lado del servidor usando node, explicando programacion asíncrona y programación orientada a objetos",
             "url_slides": "http://fcbosque.nodejitsu.com/nodejs",
             "speakers": [
               {

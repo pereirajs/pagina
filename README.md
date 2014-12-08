@@ -53,7 +53,7 @@ git push origin master # Para subir tus cambios
 
 Tambien como buena costumbre preferimos que se haga un "Pull Request" por los cambios que los colaboradores hace y estos a su vez son revisados e integrados a la rama principal de desarrollo.
 
-### Tecnologias o projectos usados
+### Tecnologias o proyectos usados
 
  * [NodeJS](https://nodejs.org/) (Funciona con las versiones 0.6, 0.8, 0.10 o 0.12)
  * [http-server](http://browsenpm.org/package/http-server) Para correr el server localmente y en el server

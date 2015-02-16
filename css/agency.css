@@ -265,6 +265,16 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+    #logo-top {
+        margin-bottom: 2.5em;
+    }
+}
+
+@media(min-width: 992px) {
+    #logo-top {
+        margin-bottom: 1.5em;
+    }
 }
 
 

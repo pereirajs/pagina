@@ -71,6 +71,15 @@
     ]
   },
   "evento": {
+    "evento_proximo": {
+      "nombre":"Octava reunión PereiraJS",
+      "fecha":"Jueves, 26 de febrero.",
+      "hora": "6:30pm",
+      "lugar": "ViveLab Pereira",
+      "direccion":"Carrera 14 Bis # 28 - 38 Barrio San Nicolás",
+      "url_reservas":"https://docs.google.com/forms/d/1f3cL0W01JhZtW88nY0yqp1uRVWrjna4il0zfIp4HjJY/viewform?embedded=true",
+      "url_mapa": "https://www.google.com/maps/d/embed?mid=z6qpSw76rva0.k3tG8yn09OOw"
+    },
     "eventos_pasados": [
       {
         "nombre": "Primera reunión",

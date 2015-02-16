@@ -73,7 +73,7 @@ function Main() {
       $("#objectives").html(render("template-objectives", data.objetivos));
       $("#evento").html(render("template-evento", data.evento));
       $("#patrocinadores").html(render("template-patrocinadores", data));
-      $("#next-meet").html(render("template-next-meet"));
+      $("#next-meet").html(render("template-next-meet", data.evento));
 
       // Un hack para agregar esa clase a un elemento de por medio
       $("#patrocinadores li:odd").addClass("timeline-inverted");

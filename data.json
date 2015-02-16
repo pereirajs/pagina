@@ -71,7 +71,7 @@
     ]
   },
   "evento": {
-    "evento_proximo": {
+    "proximo": {
       "nombre":"Octava reunión PereiraJS",
       "fecha":"Jueves, 26 de febrero.",
       "hora": "6:30pm",

@@ -21,7 +21,7 @@ $(function() {
             $.ajax({
                 url: "https://webhooks.gitter.im/e/e405119b166282e1f6e5",
                 type: "POST",
-                data: encodeURIComponent("message=#"+name+"\n##"+"email"+"\n###"+twitter+"\n\n"+message),
+                data: "message="+encodeURIComponent("##"+name+"\n###"+email+"\n####"+twitter+"\n\n"+message),
                 cache: false,
                 success: function() {
                     // Success message

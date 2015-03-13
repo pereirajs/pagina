@@ -247,6 +247,31 @@
         "photo": "/images/fotos/sexta.jpeg"
       },
       {
+        "nombre": "Septima reunión",
+        "conferencias": [
+          {
+            "nombre":"Librerías para manipulación del DOM",
+            "speakers": [
+              {
+                "nombre": "Diana M. Bedoya",
+                "url_contacto": "https://twitter.com/dimabera"
+              }
+            ]
+          },
+          {
+            "nombre": "Introducción a git y github",
+            "url_slides": "http://pin3da.github.io/slides/git_github.html",
+            "speakers": [
+              {
+                "nombre": "Manuel Felipe Pineda",
+                "url_contacto": "https://twitter.com/pin3da_"
+              }
+            ]
+          }
+        ],
+        "photo": "/images/fotos/septima.jpg"
+      },
+      {
         "nombre":"Octava reunión PereiraJS",
         "conferencias": [
             {

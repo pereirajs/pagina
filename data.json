@@ -251,6 +251,7 @@
         "conferencias": [
           {
             "nombre":"Librerías para manipulación del DOM",
+            "url_slides":"/slides/charla_jquery_nov_26_2014.pdf",
             "speakers": [
               {
                 "nombre": "Diana M. Bedoya",

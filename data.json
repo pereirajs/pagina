@@ -277,6 +277,7 @@
         "conferencias": [
             {
                 "nombre": "Buenas Prácticas en Javascript",
+                "url_slides":"https://speakerdeck.com/jonalvarezz/javascript-best-practices",
                 "speakers": [
                     {
                         "nombre": "Jonathan Alvarez",
@@ -301,6 +302,7 @@
         "conferencias":[
             {
                 "nombre": "Buenas Prácticas en Javascript",
+                "url_slides":"https://speakerdeck.com/jonalvarezz/javascript-best-practices",
                 "speakers": [
                     {
                         "nombre": "Jonathan Alvarez",

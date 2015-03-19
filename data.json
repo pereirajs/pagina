@@ -72,13 +72,13 @@
   },
   "evento": {
     "proximo": {
-      "nombre":"PereiraJS Edición Especial",
-      "fecha":"Jueves, 12 de Marzo.",
+      "nombre":"Novena Reunión PereiraJS",
+      "fecha":"Jueves, 26 de Marzo.",
       "hora": "6:30pm",
-      "lugar": "Universidad Tecnológica de Pereira, CIDT piso 2 salon 2, antiguo bloque L",
-      "direccion":"Carrera 27 #10-02 Barrio Alamos - Risaralda - Colombia",
-      "url_reservas":"https://docs.google.com/forms/d/1KECzoC9M-b-2TMdi9lRUH3QS_U_JIrLo9RWz25w8hjE/viewform?usp=send_form",
-      "url_mapa": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d496.9811348012717!2d-75.690983!3d4.795946!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2s!4v1426030496959"
+      "lugar": "ViveLab Pereira",
+      "direccion":"Carrera 14 Bis # 28 - 38 Barrio San Nicolás",
+      "url_reservas":"https://docs.google.com/forms/d/1JrJIOA0LH1cCjR0a0BPZofzEdxdu9KH2u3wXRwGJZAQ/viewform?embedded=true",
+      "url_mapa": "https://www.google.com/maps/d/embed?mid=z6qpSw76rva0.k3tG8yn09OOw"
     },
     "eventos_pasados": [
       {

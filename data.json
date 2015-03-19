@@ -295,6 +295,30 @@
             }
         ],
         "photo": "https://pbs.twimg.com/media/B-z62nNWkAA3kOo.jpg:large"
+      },
+      {
+        "nombre":"Edición Especial desde la UTP",
+        "conferencias":[
+            {
+                "nombre": "Buenas Prácticas en Javascript",
+                "speakers": [
+                    {
+                        "nombre": "Jonathan Alvarez",
+                        "url_contacto": "https://twitter.com/jonalvarezz"
+                    }
+                ]
+            },
+            {
+                "nombre": "TDD && BDD, Javascript y el buen sabor de las pruebas",
+                "speakers": [
+                    {
+                        "nombre": "Oscar Andrés Granada",
+                        "url_contacto": "https://twitter.com/oagranada"
+                    }
+                ]
+            }
+        ],
+        "photo":"/images/fotos/PereiraJSEEUTP.jpg"
       }
     ]
   },

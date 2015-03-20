@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/pereirajs/pagina",
   "dependencies": {
-    "http-server": "~0.6.1"
+    "http-server": "~0.8.0"
   },
   "subdomain": "pereirajs",
   "domains": [

@@ -1,6 +1,6 @@
 {
   "name": "homepage-pereirajs",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "página web de pereirajs.org",
   "main": "index.js",
   "scripts": {

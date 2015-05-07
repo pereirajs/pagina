@@ -321,6 +321,48 @@
             }
         ],
         "photo":"/images/fotos/PereiraJSEEUTP.jpg"
+      },
+      {
+        "nombre": "Novena reunión",
+        "conferencias": [
+          {
+            "nombre": "Introducción a npm",
+            "url_slides": "http://cronopio.github.io/slides-intro-npm/",
+            "speakers": [
+              {
+                "nombre": "Daniel Aristizabal Romero",
+                "url_contacto": "https://twitter.com/cronopio2"
+              }
+            ]
+          }
+        ],
+        "photo": "/images/fotos/novena.jpg"
+      },
+      {
+        "nombre": "Décima reunión",
+        "conferencias": [
+          {
+            "nombre": "Learn you node",
+            "url_slides": "https://github.com/workshopper/learnyounode",
+            "speakers": [
+              {
+                "nombre": "Daniel Aristizabal Romero",
+                "url_contacto": "https://twitter.com/cronopio2"
+              }
+            ]
+          },
+          {
+            "nombre": "Streams - Event Emitter",
+            "url_slides": "http://pin3da.github.io/slides",
+            "speakers": [
+              {
+                "nombre": "Manuel Felipe Pineda",
+                "url_contacto": "https://twitter.com/pin3da_"
+              }
+            ]
+          }
+        ],
+        "photo": "/images/fotos/decima.jpg"
       }
     ]
   },

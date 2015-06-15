@@ -74,6 +74,7 @@
     "proximo": {
       "nombre":"NodeSchool Pereira",
       "fecha":"Sabado, 23 de Mayo.",
+      "fecha_locale": "05/23/2015",
       "hora": "9:00am-5:00pm",
       "lugar": "Bloque Y, Sala 210",
       "direccion":"Universidad Tecnológica de Pereira",

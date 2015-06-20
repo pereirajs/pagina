@@ -74,6 +74,12 @@ function Main() {
       $("#evento").html(render("template-evento", data.evento));
       $("#patrocinadores").html(render("template-patrocinadores", data));
       $("#next-meet").html(render("template-next-meet", data.evento));
+      var curr = new Date();
+      var eventDate = new Date(data.evento.proximo.fecha_locale);
+      if (curr > eventDate) {
+        $("#infoNextEvent").css('display', 'none');
+        $("#noInfoEvent").css('display', 'block');
+      }
 
       // Un hack para agregar esa clase a un elemento de por medio
       $("#patrocinadores li:odd").addClass("timeline-inverted");
@@ -111,4 +117,3 @@ function scrollInit() {
         event.preventDefault();
     });
 }
-

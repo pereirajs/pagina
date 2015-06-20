@@ -72,14 +72,14 @@
   },
   "evento": {
     "proximo": {
-      "nombre":"NodeSchool Pereira",
-      "fecha":"Sabado, 23 de Mayo.",
-      "hora": "9:00am-5:00pm",
-      "lugar": "Bloque Y, Sala 210",
-      "direccion":"Universidad Tecnológica de Pereira",
-      "url_reservas":"https://docs.google.com/forms/d/1WQO-aw6aVSWf29SDqv-xpn9g1SnQ1su3RfNx8wAojIo/viewform?usp=send_form",
-      "url_mapa_disabled": "https://www.google.com/maps/d/embed?mid=z6qpSw76rva0.k3tG8yn09OOw",
-      "mas_info":"http://nodeschool.io/pereira"
+      "nombre":"Reunión #11 PereiraJS",
+      "fecha":"Jueves 25 de Junio",
+      "fecha_locale": "06/25/2015",
+      "hora": "6:30pm",
+      "lugar": "ViveLab Pereira",
+      "direccion":"Carrera 14 Bis # 28 - 38 Barrio San Nicolás",
+      "url_reservas":"https://docs.google.com/forms/d/143oJd6DkO63_PoUjrJ4FZbLSV0lfPiCAPDD-LFM1vbc/viewform?usp=send_form",
+      "url_mapa": "https://www.google.com/maps/d/embed?mid=z6qpSw76rva0.k3tG8yn09OOw"
     },
     "eventos_pasados": [
       {
@@ -364,6 +364,25 @@
           }
         ],
         "photo": "/images/fotos/decima.jpg"
+      }, {
+        "nombre": "Nodeschool International day",
+        "conferencias": [
+          {
+            "nombre": "Nodeschool International Day Pereira",
+            "url_slides": "http://nodeschool.io/pereira/",
+            "speakers": [
+              {
+                "nombre": "Manuel Felipe Pineda",
+                "url_contacto": "https://twitter.com/pin3da_"
+              },
+              {
+                "nombre": "Daniel Aristizabal Romero",
+                "url_contacto": "https://twitter.com/cronopio2"
+              }
+            ]
+          }
+        ],
+        "photo": "/images/fotos/nodeschoolday2015.jpg"
       }
     ]
   },

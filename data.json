@@ -41,6 +41,13 @@
       "logo":"/images/patrocinadores/sirius.png",
       "link":"http://sirius.utp.edu.co/",
       "patrocinio":"Comida y bebidas."
+    },
+    {
+      "nombre": "NodeSource",
+      "descripcion": "Es un placer contar con el patrocinio de <a href=\"https://nodesource.com\" target=\"_blank\">NodeSource</a>, ya que tienen la solida intención de apoyar el grupo en todos sus gastos. Esta compañia dedica su tiempo a ofrecer servicios profesionales sobre Node.js, su base de clientes son las empresas listadas en la Fortune 500",
+      "link": "https://nodesource.com",
+      "patrocinio": "NodeSchool International Day: almuerzos, snacks y stickers. Snacks y bebidas en las reuniones mensuales",
+      "logo":"/images/patrocinadores/logo-nodesource.png"
     }
   ],
   "objetivos": {
@@ -383,6 +390,20 @@
           }
         ],
         "photo": "/images/fotos/nodeschoolday2015.jpg"
+      }, {
+        "nombre":"Undécima reunión",
+        "conferencias": [
+          {
+            "nombre": "Jasmine, Behavior-Driven Javascript",
+            "url_slides": "http://nbviewer.ipython.org/format/slides/github/DiegoAE/Talks/blob/master/Jasmine/Jasmine Slides.ipynb",
+            "speakers": [{"nombre": "Diego A. Agudelo España"}]
+          },
+          {
+            "nombre": "Node.js / IO.js",
+            "speakers":[{"nombre":"Daniel Aristizabal Romero"}]
+          }
+        ],
+        "photo": "/images/fotos/undecima.jpg"
       }
     ]
   },

@@ -22,13 +22,6 @@
       "patrocinio":"Comida y bebidas."
     },
     {
-      "nombre":"Nodejitsu",
-      "descripcion":"Especial agradecimiento a <a href=\"https://www.nodejitsu.com/\" target=\"_blank\">Nodejitsu</a> por alojar sin ningún costo nuestro sitio web.<br><br>Nodejitsu es una Plataforma como Servicio (PaaS) que ofrece el alojamiento de aplicaciones hechas usando la emergente tecnología <a href=\"http://www.nodejs.org/\" target=\"_blank\">Node.js</a><br><br>Dentro de su compromiso con el Software Libre y Open Source, Nodejitsu apoya diferentes eventos internacionales, también apoyan los grupos locales de JavaScript. En este caso su compromiso se ratifica al apoyar PereiraJS.",
-      "logo":"/images/patrocinadores/logo-nodejitsu.png",
-      "link": "https://www.nodejitsu.com",
-      "patrocinio": "Hosting página web, Snacks."
-    },
-    {
       "nombre": "Juan Pablo Buritica",
       "descripcion":"VP of Engineering en <a href=\"https://twitter.com/ride\" target=\"_blank\">@ride</a>, organizador de <a href=\"https://twitter.com/jsconfco\" target=\"_blank\">@jsconfco</a>, <a href=\"https://twitter.com/bogotajs\" target=\"_blank\">@bogotaJS</a>, <a href=\"https://twitter.com/code_rise\" target=\"_blank\">@code_rise</a>. Esforzándose en mejorar el ambiente LatAm/Latino tecnológico. Chef y Químico en una vida pasada.<br><br>Gracias al apoyo de Juan Pablo Buritica contamos con comida, bebidas y cerveza para nuestra tercera reunión.",
       "logo":"/images/patrocinadores/buritica.jpg",
@@ -41,6 +34,13 @@
       "logo":"/images/patrocinadores/sirius.png",
       "link":"http://sirius.utp.edu.co/",
       "patrocinio":"Comida y bebidas."
+    },
+    {
+      "nombre": "NodeSource",
+      "descripcion": "Es un placer contar con el patrocinio de <a href=\"https://nodesource.com\" target=\"_blank\">NodeSource</a>, ya que tienen la solida intención de apoyar el grupo en todos sus gastos. Esta compañia dedica su tiempo a ofrecer servicios profesionales sobre Node.js, su base de clientes son las empresas listadas en la Fortune 500",
+      "link": "https://nodesource.com",
+      "patrocinio": "NodeSchool International Day: almuerzos, snacks y stickers. Snacks y bebidas en las reuniones mensuales",
+      "logo":"/images/patrocinadores/logo-nodesource.png"
     }
   ],
   "objetivos": {
@@ -383,6 +383,20 @@
           }
         ],
         "photo": "/images/fotos/nodeschoolday2015.jpg"
+      }, {
+        "nombre":"Undécima reunión",
+        "conferencias": [
+          {
+            "nombre": "Jasmine, Behavior-Driven Javascript",
+            "url_slides": "http://nbviewer.ipython.org/format/slides/github/DiegoAE/Talks/blob/master/Jasmine/Jasmine Slides.ipynb",
+            "speakers": [{"nombre": "Diego A. Agudelo España"}]
+          },
+          {
+            "nombre": "Node.js / IO.js",
+            "speakers":[{"nombre":"Daniel Aristizabal Romero"}]
+          }
+        ],
+        "photo": "/images/fotos/undecima.jpg"
       }
     ]
   },

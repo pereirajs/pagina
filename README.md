@@ -53,6 +53,10 @@ git push origin master # Para subir tus cambios
 
 Tambien como buena costumbre preferimos que se haga un "Pull Request" por los cambios que los colaboradores hace y estos a su vez son revisados e integrados a la rama principal de desarrollo.
 
+## Flujo de trabajo.
+
+Cualquier cambio que se haga debe hacerse en un branch independiente, normalmente cada autor trabajara en su propio branch, cuando el trabajo esta terminado y listo para ser revisado se abre un "pull request" para manifestar la intencion de integrar esos cambios, alguien más de la comunidad revisara y escribira sus comentarios. Si los cambios son aceptados se integran al branch `master` despues de eso y cuando se considere necesario se hara un release, incrementando la version en el `package.json` y haciendo merge al branch `gh-pages` que es producción.
+
 ### Tecnologias o proyectos usados
 
  * [NodeJS](https://nodejs.org/) (Funciona con las versiones 0.6, 0.8, 0.10 o 0.12)
@@ -69,44 +73,10 @@ Tambien puedes visitar nuestro canal de chat: [![Gitter](https://badges.gitter.i
 
 # Información de desarrollo
 
-El sistema de templates usado es Mustache, la jerarquía de archivos es: 
-```
-+ css/
-    agency.css
-    jumbotron.css
-+ images/
-    buritica.jpg
-    favicon.ico
-    header-bg.jpg
-    jsconf.co.jpg
-    logo-nodejitsu.png
-    logo-parque.png
-    LogoOficial.png
-    LogoPeq.png
-    Octocat.png
-    rompmurosweb.jpg
-    sirius.png
-    Twitter_logo_blue.png
-    vivelab-logo.jpeg
-+ js/
-    agency.js
-    cbpAnimatedHeader.js
-    classie.js
-    contact_me.js
-    jqBootstrapValidation.js
-    pereira.js
-  acercade.html
-  aliados.html
-  contacto.html
-  evento.html
-  index.html 
-  package.json
-  README.md
-  templates.html 
+Principalmente es una pagina estatica, puro HTML. Usamos Mustache como sistema de templates, los templates estan en el archivo `templates.html`. Lo que hacemos es guardar la información que cambiara con frecuencia en el archivo `data.json` y en el archivo `js/pereira.js` implementamos la logica para extraer los datos del data y con los templates renderizar la página correctamente.
 
-```
+# Despliegue
 
-en el archivo templates.html estan los templates de la pagina, el javascript donde se renderizan los templates
-es js/pereira.js.
+Ahora usamos Github Pages para alojar la página, asi que con solo hacer push a `gh-pages` se desplegara.
 
-
+TENGA CUIDADO! no hacemos push arbitrariamente seguimos un flujo de trabajo en branchs y utilizamos `master` como rama de integracion y desde alli se haran los releases, solo releases completos seran pasados al branch `gh-pages`

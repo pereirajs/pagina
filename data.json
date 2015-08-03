@@ -5,18 +5,18 @@
       "descripcion": "Parquesoft Pereira bajo la dirección de Alexander Cadavid, se ha comprometido con la comunidad y nos brindará su apoyo y colaboración con la designación del espacio a utilizar por el grupo en sus reuniones mensuales.",
       "logo": "/images/patrocinadores/logo-parque.png",
       "link": "http://www.parquesoftpereira.com/",
-      "patrocinio": "Espacio fisico."
+      "patrocinio": "Espacio físico."
     },
     {
       "nombre": "ViveLab Pereira",
       "descripcion":"Gracias a Parquesoft Pereira podemos contar con el espacio ViveLab para la realización de reuniones y talleres. Contaremos con computadores para la realización de talleres, los miembros del grupo podrán usarlos durante el evento.",
       "logo":"/images/patrocinadores/vivelab-logo.jpeg",
       "link":"https://twitter.com/ViveLabPereira",
-      "patrocinio":"Espacio fisico."
+      "patrocinio":"Espacio físico."
     },
     {
       "nombre": "Rompemuros",
-      "descripcion":"El NUEVO Router <a href=\"http://www.rompemuros.com\" target=\"_blank\">Rompemuros 3Bumen 2014</a> mantiene la mayor potencia y alcance entre todos los routers actuales, mezcla la tecnología Propia 3bumen High Power y una maravillosa potencia de 1000 Mw, para lograr un cubrimiento superior.<br><br>La compañía <a href=\"http://www.3bumen.com/es/inicio.html\" targe=\"_blank\">3Bumen</a> detras del router rompemuros, ha decidido patrocinar PereiraJS.",
+      "descripcion":"El NUEVO Router <a href=\"http://www.rompemuros.com\" target=\"_blank\">Rompemuros 3Bumen 2014</a> mantiene la mayor potencia y alcance entre todos los routers actuales, mezcla la tecnología Propia 3bumen High Power y una maravillosa potencia de 1000 Mw, para lograr un cubrimiento superior.<br><br>La compañía <a href=\"http://www.3bumen.com/es/inicio.html\" targe=\"_blank\">3Bumen</a> detrás del router rompemuros, ha decidido patrocinar PereiraJS.",
       "logo":"/images/patrocinadores/rompmurosweb.jpg",
       "link":"http://www.rompemuros.com/",
       "patrocinio":"Comida y bebidas."
@@ -37,7 +37,7 @@
     },
     {
       "nombre": "NodeSource",
-      "descripcion": "Es un placer contar con el patrocinio de <a href=\"https://nodesource.com\" target=\"_blank\">NodeSource</a>, ya que tienen la solida intención de apoyar el grupo en todos sus gastos. Esta compañia dedica su tiempo a ofrecer servicios profesionales sobre Node.js, su base de clientes son las empresas listadas en la Fortune 500",
+      "descripcion": "Es un placer contar con el patrocinio de <a href=\"https://nodesource.com\" target=\"_blank\">NodeSource</a>, ya que tienen la sólida intención de apoyar el grupo en todos sus gastos. Esta compañía dedica su tiempo a ofrecer servicios profesionales sobre Node.js, su base de clientes son las empresas listadas en la Fortune 500",
       "link": "https://nodesource.com",
       "patrocinio": "NodeSchool International Day: almuerzos, snacks y stickers. Snacks y bebidas en las reuniones mensuales",
       "logo":"/images/patrocinadores/logo-nodesource.png"
@@ -55,12 +55,12 @@
       },
       {
         "objective_name":"Crear",
-        "objective_description":"Crear y fortalecer relaciones entre aficionados a Javascript que permitan crecimiento personal y profecional, permitiendo que nuevos miembros (sin restricción) se incorporen para así enriquecer la comunidad guiados por un ambiente de respeto hacia los demás.",
+        "objective_description":"Crear y fortalecer relaciones entre aficionados a Javascript que permitan crecimiento personal y profesional, permitiendo que nuevos miembros (sin restricción) se incorporen para así enriquecer la comunidad guiados por un ambiente de respeto hacia los demás.",
         "font_icon": "fa-paint-brush"
       },
       {
         "objective_name":"Impulsar el crecimiento y desarrollo",
-        "objective_description":"Impulsar el crecimiento y desarrollo de comunidades interesadas en temas asociados a tecnología en la ciudad de Pereira y sus alrededores haciendo uso de charlas, talleres y otras herramientas que actuen como facilitadores de tales objetivos.",
+        "objective_description":"Impulsar el crecimiento y desarrollo de comunidades interesadas en temas asociados a tecnología en la ciudad de Pereira y sus alrededores haciendo uso de charlas, talleres y otras herramientas que actúen como facilitadores de tales objetivos.",
         "font_icon": "fa-rocket"
       },
       {
@@ -158,7 +158,7 @@
           },
           {
             "nombre": "Introducción a Javascript Server Side",
-            "descripcion": "Una introduccion a Javascript del lado del servidor usando node, explicando programacion asíncrona y programación orientada a objetos",
+            "descripcion": "Una introducción a Javascript del lado del servidor usando node, explicando programación asíncrona y programación orientada a objetos",
             "url_slides": "http://fcbosque.nodejitsu.com/nodejs",
             "speakers": [
               {

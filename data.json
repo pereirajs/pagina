@@ -73,7 +73,7 @@
   "evento": {
     "proximo": {
       "nombre":"Reunión #13 PereiraJS",
-      "fecha":"Jueves 28 de Agosto",
+      "fecha":"Jueves 27 de Agosto",
       "fecha_locale": "08/28/2015",
       "hora": "6:30pm",
       "lugar": "ViveLab Pereira",
@@ -363,7 +363,8 @@
           }
         ],
         "photo": "/images/fotos/decima.jpg"
-      }, {
+      },
+      {
         "nombre": "Nodeschool International day",
         "conferencias": [
           {
@@ -382,7 +383,8 @@
           }
         ],
         "photo": "/images/fotos/nodeschoolday2015.jpg"
-      }, {
+      },
+      {
         "nombre":"Undécima reunión",
         "conferencias": [
           {
@@ -396,6 +398,41 @@
           }
         ],
         "photo": "/images/fotos/undecima.jpg"
+      },
+      {
+        "nombre": "Duodécima reunión",
+        "conferencias": [
+          {
+            "nombre": "WebAssambly",
+            "speakers": [{
+              "nombre": "Giovanny Gongora",
+              "url_contacto": "https://twitter.com/Gioyik"
+            }]
+          }
+        ],
+        "photo": "images/fotos/duodecima.jpg"
+      },
+      {
+        "nombre": "Decimotercera Reunión",
+        "conferencias": [
+          {
+            "nombre": "ZeroMQ + Node.js",
+            "url_slides": "http://pin3da.github.io/slides/zeromq_node.html",
+            "speakers": [{
+              "nombre": "Manuel Felipe Pineda",
+              "url_contacto": "https://twitter.com/pin3da_"
+            }]
+          },
+          {
+            "nombre": "WebSockets and Socket.io",
+            "url_slides": "http://jhonber.github.io/webSockets-slides/",
+            "speakers": [{
+              "nombre": "Jhon Jimenez",
+              "url_contacto": "https://twitter.com/jh0nb3r"
+            }]
+          }
+        ],
+        "photo": "images/fotos/decimotercera.jpg"
       }
     ]
   },

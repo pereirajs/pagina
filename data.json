@@ -72,13 +72,13 @@
   },
   "evento": {
     "proximo": {
-      "nombre":"Reunión #13 PereiraJS",
-      "fecha":"Jueves 27 de Agosto",
-      "fecha_locale": "08/28/2015",
+      "nombre":"Reunión #14 PereiraJS",
+      "fecha":"Jueves 1 de Octubre",
+      "fecha_locale": "10/2/2015",
       "hora": "6:30pm",
       "lugar": "ViveLab Pereira",
       "direccion":"Carrera 14 Bis # 28 - 38 Barrio San Nicolás",
-      "url_reservas":"https://docs.google.com/forms/d/1FOipFJBNphUz-SpwI3q7DSWDjhW1jK1ff36RCGud0os/viewform?usp=send_form"
+      "url_reservas":"https://docs.google.com/forms/d/11fBbBSQiVd-Gm5uKO11iZ5hBfnZpevgSS0NmLq3EGxM/viewform?usp=send_form"
     },
     "eventos_pasados": [
       {

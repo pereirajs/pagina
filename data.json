@@ -433,6 +433,30 @@
           }
         ],
         "photo": "images/fotos/decimotercera.jpg"
+      },
+      {
+      "nombre": "Decimocuarta reunión",
+      "conferencias": [
+        {
+          "nombre":"Introducción a MV*",
+          "speakers": [
+            {
+              "nombre": "@oagranada",
+              "url_contacto": "https://twitter.com/oagranada"
+            }
+          ]
+        },
+        {
+          "nombre": "Node.js v4",
+          "speakers": [
+            {
+              "nombre": "Daniel Aristizabal Romero",
+              "url_contacto": "https://twitter.com/cronopio2"
+            }
+          ]
+        }
+      ],
+      "photo": "/images/fotos/decimocuarta.jpg"
       }
     ]
   },

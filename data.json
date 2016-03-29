@@ -466,6 +466,23 @@
         "photo": "/images/fotos/decimocuarta.jpg"
       },
       {
+        "nombre": "Decimoquinta reunión",
+        "photo": "/images/fotos/octubre2015.jpg",
+        "conferencias": [
+          {
+            "nombre":"Introducción a React.js",
+            "url_slides": "http://jonalvarezz.github.io/presentation-reactive-programming/",
+            "speakers":[{
+              "nombre":"Jonathan Alvarez",
+              "url_contacto": "https://twitter.com/jonalvarezz"
+            }]
+          },
+          {
+            "nombre": "EcmaScript 6"
+          }
+        ]
+      },
+      {
         "nombre": "Edición Especial desde la UTP",
         "photo": "/images/fotos/febrero2016.jpg",
         "conferencias": [

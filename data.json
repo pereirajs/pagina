@@ -41,6 +41,13 @@
       "link": "https://nodesource.com",
       "patrocinio": "NodeSchool International Day: almuerzos, snacks y stickers. Snacks y bebidas en las reuniones mensuales",
       "logo":"/images/patrocinadores/logo-nodesource.png"
+    },
+    {
+      "nombre":"Jonathan Álvarez González",
+      "descripcion": "Desarrollador web especializado en frontend. Actualmente es director de tecnología en Elemental Lab e Invertir Mejor. Comprometido en ayudar y apoyar a todas las personas en la creación de sus ideas.",
+      "link": "http://jonalvarezz.com",
+      "patrocinio": "Comida y bebidas.",
+      "logo": "/images/patrocinadores/jonalvarezz.jpeg"
     }
   ],
   "objetivos": {
@@ -72,13 +79,13 @@
   },
   "evento": {
     "proximo": {
-      "nombre":"Edición Especial en la UTP PereiraJS",
-      "fecha":"Jueves 25 de Febrero",
-      "fecha_locale": "2/26/2016",
+      "nombre":"Decimoseptima reunión PereiraJS",
+      "fecha":"Jueves 31 de Marzo",
+      "fecha_locale": "4/1/2016",
       "hora": "6:30pm",
-      "lugar": "Universidad Tecnológica de Pereira",
-      "direccion":"Sala Y-210",
-      "url_reservas":"https://docs.google.com/forms/d/1Cm0O8zkGxHLAb5ryOyBJDF7ILvhPxtkxevyMvDrKIWM/viewform"
+      "lugar": "Vivelab Pereira",
+      "direccion":"Carrera 14 Bis # 28 - 38 Barrio San Nicolás",
+      "url_reservas":"https://docs.google.com/forms/d/1oFtsg85EFgnUrPu_maoxtkc88dD_2xlzgOq3FV_naIw/viewform"
     },
     "eventos_pasados": [
       {
@@ -435,28 +442,72 @@
         "photo": "images/fotos/decimotercera.jpg"
       },
       {
-      "nombre": "Decimocuarta reunión",
-      "conferencias": [
-        {
-          "nombre":"Introducción a MV*",
-          "speakers": [
-            {
-              "nombre": "@oagranada",
-              "url_contacto": "https://twitter.com/oagranada"
-            }
-          ]
-        },
-        {
-          "nombre": "Node.js v4",
-          "speakers": [
-            {
-              "nombre": "Daniel Aristizabal Romero",
-              "url_contacto": "https://twitter.com/cronopio2"
-            }
-          ]
-        }
-      ],
-      "photo": "/images/fotos/decimocuarta.jpg"
+        "nombre": "Decimocuarta reunión",
+        "conferencias": [
+          {
+            "nombre":"Introducción a MV*",
+            "speakers": [
+              {
+                "nombre": "@oagranada",
+                "url_contacto": "https://twitter.com/oagranada"
+              }
+            ]
+          },
+          {
+            "nombre": "Node.js v4",
+            "speakers": [
+              {
+                "nombre": "Daniel Aristizabal Romero",
+                "url_contacto": "https://twitter.com/cronopio2"
+              }
+            ]
+          }
+        ],
+        "photo": "/images/fotos/decimocuarta.jpg"
+      },
+      {
+        "nombre": "Decimoquinta reunión",
+        "photo": "/images/fotos/octubre2015.jpg",
+        "conferencias": [
+          {
+            "nombre":"Introducción a React.js",
+            "url_slides": "http://jonalvarezz.github.io/presentation-reactive-programming/",
+            "speakers":[{
+              "nombre":"Jonathan Alvarez",
+              "url_contacto": "https://twitter.com/jonalvarezz"
+            }]
+          },
+          {
+            "nombre": "EcmaScript 6"
+          }
+        ]
+      },
+      {
+        "nombre": "Decimosexta reunión",
+        "photo": "/images/fotos/noviembre2015.jpg",
+        "conferencias": []
+      },
+      {
+        "nombre": "Edición Especial desde la UTP",
+        "photo": "/images/fotos/febrero2016.jpg",
+        "conferencias": [
+          {
+            "nombre": "p2p + webtorrent",
+            "url_slides": "http://pin3da.github.io/slides/p2p",
+            "speakers": [{
+              "nombre": "Manuel Pineda",
+              "url_contacto": "https://twitter.com/pin3da_"
+            }]
+          },
+          {
+            "nombre": "An introduction to MeteorJS",
+            "url_slides": "http://slides.com/rockalabs/meteorjs",
+            "speakers": [{
+              "nombre": "Sergio Florez",
+              "url_contacto": "https://twitter.com/XergioAleX"
+            }]
+          }
+        ]
       }
     ]
   },

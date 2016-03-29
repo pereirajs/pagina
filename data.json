@@ -442,28 +442,50 @@
         "photo": "images/fotos/decimotercera.jpg"
       },
       {
-      "nombre": "Decimocuarta reunión",
-      "conferencias": [
-        {
-          "nombre":"Introducción a MV*",
-          "speakers": [
-            {
-              "nombre": "@oagranada",
-              "url_contacto": "https://twitter.com/oagranada"
-            }
-          ]
-        },
-        {
-          "nombre": "Node.js v4",
-          "speakers": [
-            {
-              "nombre": "Daniel Aristizabal Romero",
-              "url_contacto": "https://twitter.com/cronopio2"
-            }
-          ]
-        }
-      ],
-      "photo": "/images/fotos/decimocuarta.jpg"
+        "nombre": "Decimocuarta reunión",
+        "conferencias": [
+          {
+            "nombre":"Introducción a MV*",
+            "speakers": [
+              {
+                "nombre": "@oagranada",
+                "url_contacto": "https://twitter.com/oagranada"
+              }
+            ]
+          },
+          {
+            "nombre": "Node.js v4",
+            "speakers": [
+              {
+                "nombre": "Daniel Aristizabal Romero",
+                "url_contacto": "https://twitter.com/cronopio2"
+              }
+            ]
+          }
+        ],
+        "photo": "/images/fotos/decimocuarta.jpg"
+      },
+      {
+        "nombre": "Edición Especial desde la UTP",
+        "photo": "/images/fotos/febrero2016.jpg",
+        "conferencias": [
+          {
+            "nombre": "p2p + webtorrent",
+            "url_slides": "http://pin3da.github.io/slides/p2p",
+            "speakers": [{
+              "nombre": "Manuel Pineda",
+              "url_contacto": "https://twitter.com/pin3da_"
+            }]
+          },
+          {
+            "nombre": "An introduction to MeteorJS",
+            "url_slides": "http://slides.com/rockalabs/meteorjs",
+            "speakers": [{
+              "nombre": "Sergio Florez",
+              "url_contacto": "https://twitter.com/XergioAleX"
+            }]
+          }
+        ]
       }
     ]
   },

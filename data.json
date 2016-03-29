@@ -41,6 +41,13 @@
       "link": "https://nodesource.com",
       "patrocinio": "NodeSchool International Day: almuerzos, snacks y stickers. Snacks y bebidas en las reuniones mensuales",
       "logo":"/images/patrocinadores/logo-nodesource.png"
+    },
+    {
+      "nombre":"Jonathan Álvarez González",
+      "descripcion": "Desarrollador web especializado en frontend. Actualmente es director de tecnología en Elemental Lab e Invertir Mejor. Comprometido en ayudar y apoyar a todas las personas en la creación de sus ideas.",
+      "link": "http://jonalvarezz.com",
+      "patrocinio": "Comida y bebidas.",
+      "logo": "/images/patrocinadores/jonalvarezz.jpeg"
     }
   ],
   "objetivos": {

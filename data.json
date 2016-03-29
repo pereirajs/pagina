@@ -79,13 +79,13 @@
   },
   "evento": {
     "proximo": {
-      "nombre":"Edición Especial en la UTP PereiraJS",
-      "fecha":"Jueves 25 de Febrero",
-      "fecha_locale": "2/25/2016",
+      "nombre":"Decimoseptima reunión PereiraJS",
+      "fecha":"Jueves 31 de Marzo",
+      "fecha_locale": "4/1/2016",
       "hora": "6:30pm",
-      "lugar": "Universidad Tecnológica de Pereira",
-      "direccion":"Sala Y-210",
-      "url_reservas":"https://docs.google.com/forms/d/1Cm0O8zkGxHLAb5ryOyBJDF7ILvhPxtkxevyMvDrKIWM/viewform"
+      "lugar": "Vivelab Pereira",
+      "direccion":"Carrera 14 Bis # 28 - 38 Barrio San Nicolás",
+      "url_reservas":"https://docs.google.com/forms/d/1oFtsg85EFgnUrPu_maoxtkc88dD_2xlzgOq3FV_naIw/viewform"
     },
     "eventos_pasados": [
       {

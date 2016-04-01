@@ -470,7 +470,7 @@
         "photo": "/images/fotos/octubre2015.jpg",
         "conferencias": [
           {
-            "nombre":"Introducción a React.js",
+            "nombre":"Reactive Programming",
             "url_slides": "http://jonalvarezz.github.io/presentation-reactive-programming/",
             "speakers":[{
               "nombre":"Jonathan Alvarez",

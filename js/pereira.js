@@ -76,6 +76,7 @@ function Main() {
       $("#next-meet").html(render("template-next-meet", data.evento));
       var curr = new Date();
       var eventDate = new Date(data.evento.proximo.fecha_locale);
+      eventDate += 24 * 60 * 60 * 1000; // one day
       if (curr > eventDate) {
         $("#infoNextEvent").css('display', 'none');
         $("#noInfoEvent").css('display', 'block');

@@ -79,13 +79,13 @@
   },
   "evento": {
     "proximo": {
-      "nombre":"Decimoseptima reunión PereiraJS",
-      "fecha":"Jueves 31 de Marzo",
-      "fecha_locale": "3/29/2016",
-      "hora": "6:30pm",
-      "lugar": "Vivelab Pereira",
-      "direccion":"Carrera 14 Bis # 28 - 38 Barrio San Nicolás",
-      "url_reservas":"https://docs.google.com/forms/d/1oFtsg85EFgnUrPu_maoxtkc88dD_2xlzgOq3FV_naIw/viewform"
+      "nombre":"Edición Especial en la UCP PereiraJS",
+      "fecha":"Sábado 9 de Abril",
+      "fecha_locale": "4/09/2016",
+      "hora": "9:00am",
+      "lugar": "Universidad Católica de Pereira",
+      "direccion":"Cra 21 # 49-95 Av. de las Américas",
+      "url_reservas":"https://docs.google.com/forms/d/1XqpJBMX7Jo6b8_HURHgpnNVPYH89_3Qwjib-mXBD_F4/viewform?c=0&w=1"
     },
     "eventos_pasados": [
       {
@@ -470,7 +470,7 @@
         "photo": "/images/fotos/octubre2015.jpg",
         "conferencias": [
           {
-            "nombre":"Introducción a React.js",
+            "nombre":"Reactive Programming",
             "url_slides": "http://jonalvarezz.github.io/presentation-reactive-programming/",
             "speakers":[{
               "nombre":"Jonathan Alvarez",

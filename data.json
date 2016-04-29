@@ -79,13 +79,13 @@
   },
   "evento": {
     "proximo": {
-      "nombre":"Edición Especial en la UCP PereiraJS",
-      "fecha":"Sábado 9 de Abril",
-      "fecha_locale": "4/09/2016",
-      "hora": "9:00am",
-      "lugar": "Universidad Católica de Pereira",
-      "direccion":"Cra 21 # 49-95 Av. de las Américas",
-      "url_reservas":"https://docs.google.com/forms/d/1XqpJBMX7Jo6b8_HURHgpnNVPYH89_3Qwjib-mXBD_F4/viewform?c=0&w=1"
+      "nombre":"Reunión #19 PereiraJS",
+      "fecha":"Jueves 5 de Mayo",
+      "fecha_locale": "5/05/2016",
+      "hora": "6:30pm",
+      "lugar": "Parquesoft",
+      "direccion":"Carrera 31 # 15-87 Barrio San Luís",
+      "url_reservas":"http://goo.gl/forms/7FEoS4Gg4L"
     },
     "eventos_pasados": [
       {

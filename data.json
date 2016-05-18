@@ -79,13 +79,13 @@
   },
   "evento": {
     "proximo": {
-      "nombre":"Reunión #19 PereiraJS",
-      "fecha":"Jueves 5 de Mayo",
-      "fecha_locale": "5/05/2016",
-      "hora": "6:30pm",
-      "lugar": "Parquesoft",
-      "direccion":"Carrera 31 # 15-87 Barrio San Luís",
-      "url_reservas":"http://goo.gl/forms/7FEoS4Gg4L"
+      "nombre":"NodeSchool International Day 2016",
+      "fecha":"Sabado, 21 de Mayo",
+      "fecha_locale": "5/21/2016",
+      "hora": "9:00pm",
+      "lugar": "Universidad Catolica de Pereira",
+      "direccion":"Carrera 21 No. 49-95 Av. de las Américas",
+      "url_reservas":"http://goo.gl/forms/nrGuXM9BarfWc2Gs1"
     },
     "eventos_pasados": [
       {

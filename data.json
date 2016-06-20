@@ -79,13 +79,13 @@
   },
   "evento": {
     "proximo": {
-      "nombre":"NodeSchool International Day 2016",
-      "fecha":"Sabado, 21 de Mayo",
-      "fecha_locale": "5/21/2016",
-      "hora": "9:00pm",
-      "lugar": "Universidad Catolica de Pereira",
-      "direccion":"Carrera 21 No. 49-95 Av. de las Américas",
-      "url_reservas":"http://goo.gl/forms/nrGuXM9BarfWc2Gs1"
+      "nombre":"AngularJS y Mongoose",
+      "fecha":"Jueves, 30 de Junio",
+      "fecha_locale": "6/30/2016",
+      "hora": "6:30pm",
+      "lugar": "Universidad Tecnológica de Pereira",
+      "direccion":"Salón 2 piso 2, edificio CIDT. Bloque L",
+      "url_reservas":"http://goo.gl/forms/8QcZqIPvNC7t0LkB2"
     },
     "eventos_pasados": [
       {

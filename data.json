@@ -538,7 +538,7 @@
           }]
         },
         {
-          "nombre": "Introducción a JavaScript",
+          "nombre": "Introducción a React",
           "url_slides": "http://jonalvarezz.github.io/react-talk/",
           "speakers":[{
             "nombre":"Jonathan Alvarez",

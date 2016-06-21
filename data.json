@@ -79,13 +79,13 @@
   },
   "evento": {
     "proximo": {
-      "nombre":"NodeSchool International Day 2016",
-      "fecha":"Sabado, 21 de Mayo",
-      "fecha_locale": "5/21/2016",
-      "hora": "9:00pm",
-      "lugar": "Universidad Catolica de Pereira",
-      "direccion":"Carrera 21 No. 49-95 Av. de las Américas",
-      "url_reservas":"http://goo.gl/forms/nrGuXM9BarfWc2Gs1"
+      "nombre":"AngularJS y Mongoose",
+      "fecha":"Jueves, 30 de Junio",
+      "fecha_locale": "6/30/2016",
+      "hora": "6:30pm",
+      "lugar": "Universidad Tecnológica de Pereira",
+      "direccion":"Salón 2 piso 2, edificio CIDT. Bloque L",
+      "url_reservas":"http://goo.gl/forms/8QcZqIPvNC7t0LkB2"
     },
     "eventos_pasados": [
       {
@@ -508,6 +508,48 @@
             }]
           }
         ]
+      },
+      {
+        "nombre": "Decimoséptima reunión",
+        "photo": "/images/fotos/2016-17.jpg",
+        "conferencias": [{
+          "nombre": "Introducción a JavaScript",
+          "url_slides": "http://jonalvarezz.github.io/intro-js/",
+          "speakers":[{
+            "nombre":"Jonathan Alvarez",
+            "url_contacto": "https://twitter.com/jonalvarezz"
+          }]
+        },
+        {
+          "nombre": "Introducción a NodeJS",
+          "speakers":[{
+            "nombre": "Daniel Aristizabal Romero",
+            "url_contacto": "https://twitter.com/cronopio2"
+          }]
+        }]
+      },
+      {
+        "nombre": "Decimoctava reunión",
+        "photo": "/images/fotos/2016-18.jpg",
+        "conferencias": [{
+          "nombre": "Three JS",
+          "speakers":[{
+            "nombre": "Gabriel Muñoz"
+          }]
+        },
+        {
+          "nombre": "Introducción a React",
+          "url_slides": "http://jonalvarezz.github.io/react-talk/",
+          "speakers":[{
+            "nombre":"Jonathan Alvarez",
+            "url_contacto": "https://twitter.com/jonalvarezz"
+          }]
+        }]
+      },
+      {
+        "nombre": "Nodeschool International Day 2016",
+        "photo": "/images/fotos/nodeschoolday2016.jpg",
+        "conferencias": []
       }
     ]
   },

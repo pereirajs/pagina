@@ -508,6 +508,48 @@
             }]
           }
         ]
+      },
+      {
+        "nombre": "Decimoséptima reunión",
+        "photo": "/images/fotos/2016-17.jpg",
+        "conferencias": [{
+          "nombre": "Introducción a JavaScript",
+          "url_slides": "http://jonalvarezz.github.io/intro-js/",
+          "speakers":[{
+            "nombre":"Jonathan Alvarez",
+            "url_contacto": "https://twitter.com/jonalvarezz"
+          }]
+        },
+        {
+          "nombre": "Introducción a NodeJS",
+          "speakers":[{
+            "nombre": "Daniel Aristizabal Romero",
+            "url_contacto": "https://twitter.com/cronopio2"
+          }]
+        }]
+      },
+      {
+        "nombre": "Decimoctava reunión",
+        "photo": "/images/fotos/2016-18.jpg",
+        "conferencias": [{
+          "nombre": "Three JS",
+          "speakers":[{
+            "nombre": "Gabriel Muñoz"
+          }]
+        },
+        {
+          "nombre": "Introducción a JavaScript",
+          "url_slides": "http://jonalvarezz.github.io/react-talk/",
+          "speakers":[{
+            "nombre":"Jonathan Alvarez",
+            "url_contacto": "https://twitter.com/jonalvarezz"
+          }]
+        }]
+      },
+      {
+        "nombre": "Nodeschool International Day 2016",
+        "photo": "/images/fotos/nodeschoolday2016.jpg",
+        "conferencias": []
       }
     ]
   },

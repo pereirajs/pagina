@@ -79,13 +79,13 @@
   },
   "evento": {
     "proximo": {
-      "nombre":"AngularJS y Mongoose",
-      "fecha":"Jueves, 30 de Junio",
-      "fecha_locale": "6/30/2016",
+      "nombre":"PereiraJS #21",
+      "fecha":"Martes, 30 de Agosto",
+      "fecha_locale": "8/30/2016",
       "hora": "6:30pm",
       "lugar": "Universidad Tecnológica de Pereira",
-      "direccion":"Salón 2 piso 2, edificio CIDT. Bloque L",
-      "url_reservas":"http://goo.gl/forms/8QcZqIPvNC7t0LkB2"
+      "direccion":"Salón 204 piso 2, edificio CIDT. Bloque L",
+      "url_reservas":"https://goo.gl/forms/d5x6xhNIUHBfYV8g2"
     },
     "eventos_pasados": [
       {

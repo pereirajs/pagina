@@ -79,13 +79,13 @@
   },
   "evento": {
     "proximo": {
-      "nombre":"PereiraJS #21",
-      "fecha":"Martes, 30 de Agosto",
-      "fecha_locale": "8/30/2016",
+      "nombre":"PereiraJS #22",
+      "fecha":"Martes, 27 de Septiembre",
+      "fecha_locale": "9/27/2016",
       "hora": "6:30pm",
       "lugar": "Universidad Tecnológica de Pereira",
-      "direccion":"Salón 204 piso 2, edificio CIDT. Bloque L",
-      "url_reservas":"https://goo.gl/forms/d5x6xhNIUHBfYV8g2"
+      "direccion":"Piso 2, edificio CIDT. Antiguo bloque L",
+      "url_reservas":"https://goo.gl/forms/jOJslsyesjbzkPLU2"
     },
     "eventos_pasados": [
       {

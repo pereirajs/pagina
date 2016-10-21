@@ -79,13 +79,13 @@
   },
   "evento": {
     "proximo": {
-      "nombre":"PereiraJS #22",
-      "fecha":"Martes, 27 de Septiembre",
-      "fecha_locale": "9/27/2016",
+      "nombre":"PereiraJS #23",
+      "fecha":"Martes, 25 de Octubre",
+      "fecha_locale": "10/25/2016",
       "hora": "6:30pm",
-      "lugar": "Universidad Tecnológica de Pereira",
-      "direccion":"Piso 2, edificio CIDT. Antiguo bloque L",
-      "url_reservas":"https://goo.gl/forms/jOJslsyesjbzkPLU2"
+      "lugar": "Universidad Libre Seccional Pereira",
+      "direccion":"Bloque C, Piso 4. Audiovisuales de Ingeniería",
+      "url_reservas":"https://docs.google.com/forms/d/e/1FAIpQLSfFdL55hi2XCLkFHS62naYJTCd4KKCY1NCZKBsQVxR4rOWpHw/viewform"
     },
     "eventos_pasados": [
       {

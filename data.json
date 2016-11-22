@@ -80,12 +80,12 @@
   "evento": {
     "proximo": {
       "nombre":"PereiraJS #23",
-      "fecha":"Martes, 25 de Octubre",
-      "fecha_locale": "10/25/2016",
+      "fecha":"Jueves, 1 de Diciembre",
+      "fecha_locale": "12/01/2016",
       "hora": "6:30pm",
-      "lugar": "Universidad Libre Seccional Pereira",
-      "direccion":"Belmonte, Av. De las Américas. Bloque C, Piso 4. Audiovisuales de Ingeniería",
-      "url_reservas":"https://docs.google.com/forms/d/e/1FAIpQLSfFdL55hi2XCLkFHS62naYJTCd4KKCY1NCZKBsQVxR4rOWpHw/viewform"
+      "lugar": "Universidad Tecnológica de Pereira",
+      "direccion":"Bloque CIDT, piso 2",
+      "url_reservas":"https://docs.google.com/forms/d/e/1FAIpQLSfDSg_Apxe2_MLUMWKFiuos4EeituSYCGLakurWlGZPXX6vwQ/viewform"
     },
     "eventos_pasados": [
       {

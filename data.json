@@ -79,13 +79,13 @@
   },
   "evento": {
     "proximo": {
-      "nombre":"PereiraJS #24",
-      "fecha":"Jueves, 1 de Diciembre",
-      "fecha_locale": "12/01/2016",
+      "nombre":"PereiraJS #25",
+      "fecha":"Martes, 28 de Febrero",
+      "fecha_locale": "02/28/2017",
       "hora": "6:30pm",
-      "lugar": "Universidad Tecnológica de Pereira",
-      "direccion":"Piso 2, edificio CIDT. Antiguo bloque L",
-      "url_reservas":"https://docs.google.com/forms/d/e/1FAIpQLSfDSg_Apxe2_MLUMWKFiuos4EeituSYCGLakurWlGZPXX6vwQ/viewform"
+      "lugar": "Universidad Libre.",
+      "direccion":"Por confirmar.",
+      "url_reservas":"https://docs.google.com/forms/d/e/1FAIpQLSf25JYiZyEWGuPT2HZDC6P0Tc4tNCl4RwNmF-b-DO-yubyODQ/viewform"
     },
     "eventos_pasados": [
       {

@@ -48,6 +48,13 @@
       "link": "http://jonalvarezz.com",
       "patrocinio": "Comida y bebidas.",
       "logo": "/images/patrocinadores/jonalvarezz.jpeg"
+    },
+    {
+      "nombre":"RockaLabs",
+      "descripcion": "<a href=\"http://rockalabs.com/\" target=\"_blank\">RockaLabs</a> es una startup para crear startups. <a href=\"http://rockalabs.com/team-es.html\" target=\"_blank\">Un equipo de ingeniería y diseño de producto</a> que trabaja en remoto y está dedicado a idear y construir productos digitales.<br><br><a href=\"http://rockalabs.com/\" target=\"_blank\">RockaLabs</a> apoya a emprendedores a ejecutar sus ideas y también ha participado como inversionista en algunas startups de Colombia y Europa.<br><br>Apoyamos tecnologías modernas y eventos que apoyen la construcción de comunidades de desarrollo y diseño de productos.",
+      "link": "http://rockalabs.com/",
+      "patrocinio": "Comida y bebidas.",
+      "logo": "/images/patrocinadores/logo-RockaLabs-black.svg"
     }
   ],
   "objetivos": {
@@ -589,6 +596,18 @@
       "nombre":"Santiago Bernal",
       "twitter": "santiaguf",
       "github": "santiag"
+    },
+    {
+      "email":"xergioalex@gmail.com",
+      "nombre":"Sergio Alexander Florez Galeano",
+      "twitter":"XergioAleX",
+      "github": "xergioalex"
+    },
+     {
+      "email":"jdmorales092@gmail.com",
+      "nombre":"John Darwin Morales",
+      "twitter":"jdmorales092",
+      "github": "jdmorales"
     }
   ]
 }

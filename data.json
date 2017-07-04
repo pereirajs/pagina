@@ -86,13 +86,13 @@
   },
   "evento": {
     "proximo": {
-      "nombre":"PereiraJS #28",
-      "fecha":"Martes, 30 de Mayo",
-      "fecha_locale": "05/30/2017",
+      "nombre":"Reunión Mensual PereiraJS",
+      "fecha":"Martes, 4 de Julio",
+      "fecha_locale": "06/04/2017",
       "hora": "6:30pm",
       "lugar": "Edificio CIDT Salón 15A-304",
       "direccion":"Universidad Tecnológica de Pereira",
-      "url_reservas":"https://docs.google.com/forms/d/e/1FAIpQLSd6WCBB4cp3HWFGZKSJhgvqO30RBjVwffwgS5iIr2gvm1E5cw/viewform?usp=sf_link"
+      "url_reservas":"https://www.meetup.com/PereiraJs_/events/241192069/"
     },
     "eventos_pasados": [
       {

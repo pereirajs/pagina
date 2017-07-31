@@ -94,7 +94,7 @@
           <dd>{{proximo.direccion}}</dd>
         </dl>
         <div class="text-center" style="margin:20px;">
-          <button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#formModal" style="font-size:30px;">Reservar!</button>
+          <a href={{proximo.url_reservas}} class="btn btn-lg btn-primary">Reservar!</a>
           {{#proximo.mas_info}}
             <a href="{{proximo.mas_info}}" class="btn btn-lg btn-success" style="font-size:30px;" role="button">Más Información</a>
           {{/proximo.mas_info}}
@@ -104,23 +104,6 @@
         <h2 class="text-info">Aún no tenemos un evento programado</h2>
         <h3 class="section-subheading text-muted" style="margin-bottom:10px;">No te pierdas nuestro próximo evento, suscribete a nuestra lista de correo y recibe las ultimas noticias sobre la comunidad y los eventos futuros</h3>
         <p><a href="#contact" class="page-scroll btn btn-primary">suscríbete a nuestra lista de correo</a></p>
-      </div>
-    </div>
-  </div>
-  <!-- Modal -->
-  <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 class="modal-title" id="formModalLabel">Reservar Cupo</h4>
-        </div>
-        <div class="modal-body">
-          <iframe src="{{proximo.url_reservas}}" width="558" height="650" frameborder="0" marginheight="0" marginwidth="0">Cargando...</iframe>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-        </div>
       </div>
     </div>
   </div>

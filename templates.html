@@ -33,7 +33,7 @@
     </div>
 
     <div class="row">
-      {{#eventos_pasados}}
+      {{#posts}}
       <div class="col-md-4 col-sm-6 portfolio-item"style="min-height:40em;">
         <!--
            <a data-toggle="modal" class="portfolio-link" href="#portfolioModal1">
@@ -44,22 +44,15 @@
              </div>
            </a>
            -->
-        <img alt="{{nombre}}" class="img-responsive img-thumbnail" src="{{photo}}">
+        <img alt="{{nombre}}" class="img-responsive img-thumbnail" src="{{feature_image}}">
         <div class="portfolio-caption">
-          <h4>{{nombre}}</h4>
-          {{#conferencias}}
+          <h4>{{title}}</h4>
             <p class="text-muted">
-                {{^url_slides}}
-                    {{nombre}}
-                {{/url_slides}}
-                {{#url_slides}}
-                    <a target="_blank" href="{{url_slides}}">{{nombre}}</a>
-                {{/url_slides}}
+                {{meta_description}}
             </p>
-          {{/conferencias}}
         </div>
       </div>
-      {{/eventos_pasados}}
+      {{/posts}}
     </div>
   </div>
 </script>

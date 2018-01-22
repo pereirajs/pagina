@@ -67,11 +67,18 @@ function renderColaboradores (colaboradores) {
   $("#team").html(render("template-colaboradores", { colaboradores: conHashes }));
 }
 
+function loadPosts(callback) {
+  var url = 'https://pereiratechtalks.com/ghost/api/v0.1/posts/?limit=2&filter=author%3Apereirajs&client_id=ghost-frontend&client_secret=7709d8d5ac20';
+  $.ajax({
+    url: url,
+    success: callback
+  });
+}
+
 function Main() {
   loadTemplates(function () {
     loadData('data.json', function (data) {
       $("#objectives").html(render("template-objectives", data.objetivos));
-      $("#evento").html(render("template-evento", data.evento));
       $("#patrocinadores").html(render("template-patrocinadores", data));
       $("#next-meet").html(render("template-next-meet", data.evento));
       var curr = (new Date()).getTime();
@@ -81,6 +88,13 @@ function Main() {
         $("#infoNextEvent").css('display', 'none');
         $("#noInfoEvent").css('display', 'block');
       }
+
+      loadPosts(function (data) {
+        for (var i = 0; i < data.posts.length; i++) {
+          data.posts[i].feature_image = 'https://pereiratechtalks.com' + data.posts[i].feature_image
+        }
+        $("#evento").html(render("template-evento", data));
+      })
 
       // Un hack para agregar esa clase a un elemento de por medio
       $("#patrocinadores li:odd").addClass("timeline-inverted");

@@ -92,7 +92,6 @@ function Main() {
       loadPosts(function (data) {
         for (var i = 0; i < data.posts.length; i++) {
           data.posts[i].feature_image = 'https://pereiratechtalks.com' + data.posts[i].feature_image
-          console.log(data.posts[i].feature_image);
         }
         $("#evento").html(render("template-evento", data));
       })

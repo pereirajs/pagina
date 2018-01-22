@@ -68,7 +68,7 @@ function renderColaboradores (colaboradores) {
 }
 
 function loadPosts(callback) {
-  var url = 'https://pereiratechtalks.com/ghost/api/v0.1/posts/?limit=2&filter=author%3Apereirajs&client_id=ghost-frontend&client_secret=7709d8d5ac20';
+  var url = 'https://pereiratechtalks.com/ghost/api/v0.1/posts/?limit=9&filter=author%3Apereirajs&client_id=ghost-frontend&client_secret=7709d8d5ac20';
   $.ajax({
     url: url,
     success: callback

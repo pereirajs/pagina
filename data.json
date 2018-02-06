@@ -87,12 +87,12 @@
   "evento": {
     "proximo": {
       "nombre":"Reunión Mensual PereiraJS",
-      "fecha":"Martes, 1 de Agosto",
-      "fecha_locale": "08/01/2017",
+      "fecha":"Martes, 6 de febrero",
+      "fecha_locale": "02/06/2018",
       "hora": "6:30pm",
-      "lugar": "Edificio CIDT Salón 15A-304",
+      "lugar": "Edificio CIDT Salón 15C-204",
       "direccion":"Universidad Tecnológica de Pereira",
-      "url_reservas":"https://www.meetup.com/PereiraJs_/events/242054104/"
+      "url_reservas":"https://www.meetup.com/PereiraJs_/events/247409053/"
     },
     "eventos_pasados": [
       {

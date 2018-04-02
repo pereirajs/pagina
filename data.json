@@ -86,13 +86,13 @@
   },
   "evento": {
     "proximo": {
-      "nombre":"Reunión Mensual PereiraJS",
-      "fecha":"Jueves, 22 de febrero",
-      "fecha_locale": "02/22/2018",
+      "nombre":"Visualización de datos con d3.js && Desarrollo de aplicaciones usando MEAN Stack",
+      "fecha":"Jueves, 5 de Abril",
+      "fecha_locale": "04/05/2018",
       "hora": "6:30pm",
-      "lugar": "Edificio CIDT Salón 15C-204",
+      "lugar": "Sala Magistral 1, Edificio 13",
       "direccion":"Universidad Tecnológica de Pereira",
-      "url_reservas":"https://www.meetup.com/PereiraJs_/events/247409053/"
+      "url_reservas":"https://www.meetup.com/PereiraJs_/events/248553698/"
     },
     "eventos_pasados": [
       {

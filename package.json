@@ -1,31 +1,33 @@
 {
   "name": "homepage-pereirajs",
-  "version": "0.2.0",
-  "description": "página web de pereirajs.org",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/http-server --cors"
-  },
+  "version": "0.5.0",
+  "description": "Página web de pereirajs.org",
   "repository": {
     "type": "git",
     "url": "git://github.com/pereirajs/pagina.git"
   },
-  "author": "",
+  "author": "Comunidad - PereiraJs",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pereirajs/pagina/issues"
   },
   "homepage": "https://github.com/pereirajs/pagina",
-  "dependencies": {
-    "http-server": "~0.8.0"
-  },
   "subdomain": "pereirajs",
   "domains": [
     "pereirajs.org",
     "www.pereirajs.org"
   ],
   "engines": {
-    "node": "0.10.x"
+    "node": "8.7.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/http-server --cors"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
   }
 }

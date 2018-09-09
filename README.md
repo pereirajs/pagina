@@ -2,8 +2,8 @@
 
 # Página Web pereirajs.org
 
-<a href="https://github.com/pereirajs">
-  <img width="100" src="icons/favicons/favicon.jpg">
+<a href="https://pereirajs.org">
+  <img width="100" src="src/icons/favicons/favicon.jpg">
 </a>
 
 <!-- [![Build Status][build-badge]][build] -->

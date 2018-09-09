@@ -1,112 +1,15 @@
-
-<div align="center">
-  <h1>Jopmi - The Open Donations Platform</h1>
-
-  <a href="https://jopmi.com">
-    <img width="130" src="src/images/logo_jopmi.svg">
-  </a>
-  <br/>
-  <br/>
-  <br/>
-
-  [![Website online](https://img.shields.io/badge/website-online-brightgreen.svg)](https://jopmi.org/)
-  [![Node Version](https://img.shields.io/badge/node-%3E%3D6.11.5-brightgreen.svg)](https://nodejs.org/en/)
-  [![Webpack](https://img.shields.io/badge/webpack-%3E%3D4.16.5-blue.svg)](https://www.npmjs.com/package/webpack)
-  [![Docker CE](https://img.shields.io/badge/docker-estable--18.09-lightgrey.svg)](https://docs.docker.com/install/#supported-platforms)
-  [![Twitter Jopmi](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/wearejopmi)
-</div>
-
-## Overview
-
-Hi there!
-
-Here you can find the landing page for [Jopmi Project](https://github.com/RockaLabs/jopmi).
-
-Jopmi is an open donations platform that aims to change the way donations work around the world, by integrating practices of transparency and collaboration (as the ones practiced by open source communities) plus cryptocurrencies and blockchain to enhance honesty, traceability and promote *Transparency*.
-
-Jopmi will be acting as a non for profit organization.
-
-We'll be live at Jopmi.com and Jopmi.org.
-
-
-## Running locally for development
-
-#### Setup your environment
-
-* [Install **npm**](https://www.npmjs.com/get-npm) and [Install **Yarn**](https://yarnpkg.com/en/docs/install#debian-stable)(Optional)
-
-Install Docker (Optional):
-
-* [Install **Docker**](https://docs.docker.com/install/#supported-platforms)
-* [Install **Docker compose**](https://docs.docker.com/compose/install/)
-
-
-#### Run project without docker
-
-```
-# Generate bundle using webpack development mode
-yarn build:dev
-
-# Run webpack dev server for locally development
-yarn build:dev:server
-
-# Generate bundle using webpack production mode
-yarn build:prod
-```
-
-#### Run project with docker (The easy way)
-
-```
-# Generate bundle using webpack development mode
-yarn docker:build:dev
-
-# Run webpack dev server for locally development
-yarn docker:build:dev:server
-
-# Generate bundle using webpack production mode
-yarn docker:build:prod
-```
-
-#### **Warning:** Problems with `node_modules` packages?
-
-Try cleaning the `node_modules` if you have tried to install the packages without docker, and you have tried to use them later.
-```
-yarn build:clean
-```
-
-
-## Acknowledgements
-
-This code is compiled using webpack 4.
-
-## License
-
-See the [LICENSE](LICENSE) file (MIT).
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div align="center">
 
 # Página Web pereirajs.org
 
 <a href="https://github.com/pereirajs">
-  <img width="100" src="icons/favicons/favicon.jpg">
+  <img width="100" src="images/LogoOficial.png">
 </a>
 
 <!-- [![Build Status][build-badge]][build] -->
 [![MIT License][license-badge]][LICENSE]
 [![Node Status](https://img.shields.io/badge/NodeJS-0.12-blue.svg?longCache=true&style=flat-square)](https://www.python.org/)
-[![PRs Welcome][prs-badge]][prs]
+[![PRs Welcome][prs-badge]][prs] 
 [![GitHub issues](https://img.shields.io/github/issues/pereirajs/pagina.svg?style=flat-square)](https://github.com/pereirajs/pagina/issues)
 [![Twitter Jopmi](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/PereiraJS_)
 
@@ -132,7 +35,7 @@ Es la rama por defecto. Se hace Pull Request desde otra rama referente al issue 
 ## ⤴️ Production
 
 Después de que se han ejecutado las pruebas de calidad (QA), los cambios realizados en la rama `develop` se unen con la rama `production`. y son
-desplegados a través de production a
+desplegados a través de production a 
 https://pereirajs.github.io/pagina/ (pronto en http://pereirajs.org)
 
 # 🛠 Desarrollo local

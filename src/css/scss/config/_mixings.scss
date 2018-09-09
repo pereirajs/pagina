@@ -1,0 +1,77 @@
+// Display
+.hidden {
+  display: none;
+}
+
+// Testing
+.full-width { width: 100% }
+
+// Cursors
+.cursor-default { cursor: default !important; }
+.cursor-pointer { cursor: pointer !important; }
+
+// Display styles
+.display-none  { display: none !important; }
+.display-block { display: block !important; }
+.display-inline { display: inline !important; }
+.display-inline-block { display: inline-block !important; }
+
+// List style
+.list-style-none{
+  padding-left: 0px;
+  list-style: none;
+}
+
+.non-events {
+  pointer-events: none;
+}
+
+.not-visible {
+  opacity: 0;
+}
+
+.non-decoration {
+  text-decoration: none !important;
+}
+
+.img-thumbnail {
+  max-width: 100%;
+  padding: 2px;
+  border: 1px solid map_get($colors, _mt_grey_light);
+  border-radius: 2px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-uppercas, .txt-upp {
+  text-transform: uppercase !important;
+}
+
+.text-first, .txt-initial {
+  text-transform: initial !important;
+}
+
+.font-helvetica{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Mixing Browsers support */
+@mixin browsers_support($property, $value) {
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+  #{$property}: $value;
+}
+
+.overflow-ellipsis {
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

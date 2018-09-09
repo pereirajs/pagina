@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  webpack:
+    image: node:8.11.3-alpine
+    working_dir: /code/js
+    volumes:
+      - ../../:/code/js
+    ports:
+      - "9000:9000"
+    environment:
+      - DOCKER_SERVER=true
+    command: sh -c 'yarn && chown -R ${PERMISSIONS} /code/js && yarn ${COMMAND_SCRIPT} && chown -R ${PERMISSIONS} /code/js'
+
+
+
+
+

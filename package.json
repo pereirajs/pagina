@@ -18,7 +18,7 @@
     "www.pereirajs.org"
   ],
   "engines": {
-    "node": "8.11.3"
+    "node": "8.x.x"
   },
   "scripts": {
     "build:clean": "rm -Rf node_modules && rm -Rf dist",

@@ -5,7 +5,7 @@
 <a href="https://pereirajs.org">
   <img width="100" src="src/icons/favicons/favicon.jpg">
 </a>
-
+<br>
 <!-- [![Build Status][build-badge]][build] -->
 [![MIT License][license-badge]][LICENSE]
 [![Node Status](https://img.shields.io/badge/NodeJS-0.12-blue.svg?longCache=true&style=flat-square)](https://www.python.org/)

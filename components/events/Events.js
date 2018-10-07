@@ -1,4 +1,5 @@
 import Content from "../Content";
+import A from "../Anchor";
 
 const Events = () => (
   <section id="eventos">
@@ -7,7 +8,8 @@ const Events = () => (
       <p>
         Los realizamos una vez por mes, durante 2 horas y compartimos algunos
         snacks. Aunque la entrada es gratuira es necesario que reserves.
-        <a href="#registro">Asistir al próximo evento</a>
+        {' '}
+        <A href="#registro">Asistir al próximo evento</A>
       </p>
     </Content>
   </section>

@@ -8,7 +8,7 @@ const Hero = () => (
       <h1>Comunidad de Aprendizaje de JavaScript</h1>
       <Counter />
     </div>
-    <a className="more db tc">Ver más</a>
+    <a className="more db tc">Conoce más sobre nosotros</a>
 
     <style jsx>{`
       header {

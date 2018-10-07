@@ -1,4 +1,4 @@
-const Button = ({children, ...props}) => {
+const Button = ({children, secondary, ...props}) => {
   let Component = 'a'
   const buttonProps = { ...props }
 
@@ -14,9 +14,9 @@ const Button = ({children, ...props}) => {
       <style jsx>{`
         ${Component.toLowerCase()} {
           border: 0;
-          background: var(--yellow);
-          color: var(--dark-blue);
-          padding: .8rem 1rem;
+          background: ${secondary ? 'var(--blue)' : 'var(--yellow)'};
+          color: ${secondary ? '#fff' : 'var(--dark-blue)'};
+          padding: .5rem .8rem;
           border-radius: 3px;
           display: inline-block;
           font-size: .8rem;

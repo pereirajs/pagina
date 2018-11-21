@@ -56,7 +56,7 @@ También como buena costumbre preferimos que se haga un "Pull Request" por los c
 
 ## Flujo de trabajo.
 
-Cualquier cambio que se haga debe hacerse en un branch independiente, normalmente cada autor trabajara en su propio branch, cuando el trabajo esta terminado y listo para ser revisado se abre un "pull request" para manifestar la intención de integrar esos cambios, alguien más de la comunidad revisara y escribirá sus comentarios. Si los cambios son aceptados se integran al branch `master` después de eso y cuando se considere necesario se hará un release, incrementando la versión en el `package.json` y haciendo merge al branch `gh-pages` que es producción.
+Cualquier cambio que se haga debe hacerse en un branch independiente, normalmente cada autor trabajara en su propio branch, cuando el trabajo esta terminado y listo para ser revisado se abre un "pull request" para manifestar la intención de integrar esos cambios, alguien más de la comunidad revisara y escribirá sus comentarios. Si los cambios son aceptados se integran al branch **`develop`** después de eso y cuando se considere necesario se hará un release, incrementando la versión en el `package.json` y haciendo merge al branch **`gh-pages`** que es producción.
 
 ### Tecnologías o proyectos usados
 

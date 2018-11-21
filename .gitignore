@@ -1,5 +1,6 @@
-node_modules/
-*.swp
-.idea
-*.map
-.cache
+.DS_Store
+node_modules
+.now
+.vscode
+.next
+

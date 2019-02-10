@@ -3,4 +3,5 @@ node_modules
 .now
 .vscode
 .next
+package-lock.json
 

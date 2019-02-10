@@ -1,19 +1,9 @@
 import Content from "../Content";
 import A from "../Anchor";
-import api from '../../api/api';
 
 export default class Events extends React.Component{
 
-  static async getInitialProps() {
-    const { posts } = await api.PTTpost.posts();
-    console.log('..............................................................................................')
-    const p = {a:1, b:2};
-    return { p };
-  }
-  
   render() {
-    const { p } = this.props;
-    console.log(p)
     return (
       <section id="eventos">
         <Content className="center mw6 tc pv5" component="article">

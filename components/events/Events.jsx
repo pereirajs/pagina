@@ -1,9 +1,13 @@
 import Content from "../Content";
+import GridEvents from './GridEvents.jsx';
+import EventComp from './Event.jsx';
 import A from "../Anchor";
 
 export default class Events extends React.Component{
 
   render() {
+    const { posts } = this.props;
+    const { urlApi } = this.props;
     return (
       <section id="eventos">
         <Content className="center mw6 tc pv5" component="article">
@@ -15,11 +19,12 @@ export default class Events extends React.Component{
             <A href="#registro">Asistir al próximo evento</A>
           </p>
         </Content>
+        <GridEvents>
+          { posts.map( post => <EventComp key={ post.id } post={ post } urlApi={ urlApi }/>)}
+        </GridEvents>
       </section>
     )
 
   }
 
 }
-
-

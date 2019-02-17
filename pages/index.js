@@ -7,21 +7,20 @@ class Index extends React.Component {
 
   static async getInitialProps() {
     const { posts } = await api.PTTpost.posts();
-    console.log(posts)
-    const p = {a:1, b:2};
-    return { p };
+    return { posts };
   }
 
   render(){
+    const { posts } = this.props;
     return (
       <React.Fragment>
           <Hero />
-          <Events />
+          <Events posts={ posts } urlApi= { api.urlApi }/>
           <AboutUs />
         </React.Fragment>
     );
   }
-  
-} 
+
+}
 
 export default Index;

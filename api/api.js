@@ -2,6 +2,7 @@ import fetch from 'isomorphic-fetch';
 
 
 const api = {
+    urlApi: 'https://pereiratechtalks.com',
     PTTpost: {
         async posts(){
             const queryParams = '?limit=9&filter=author%3Apereirajs&client_id=ghost-frontend&client_secret=7709d8d5ac20'

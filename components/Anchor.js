@@ -7,8 +7,12 @@ const Anchor = ({ children, ...props }) => (
         color: var(--smoke-blue);
         position: relative;
         z-index: 1;
+        margin: auto 10px;
+        padding-left: 10px;
+        padding-right: 10px;
       }
       a:before {
+          margin: auto 10px;
         content: '';
         position: absolute;
         top: 0;

@@ -18,7 +18,7 @@ export default class MyDocument extends Document {
           />
           <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:900&text=PEREIRA.JS|Sintony:400,700"
+            href="https://fonts.googleapis.com/css?family=Roboto:900|Sintony:400,700"
           />
         </Head>
         <body>

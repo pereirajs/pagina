@@ -11,6 +11,8 @@ export default class Colaborators extends React.Component {
             <section>
                 <Content className="center mw6 tc pv5" component="article">
                     <Header/>
+                </Content>
+                <Content className="center mw12 tc pv5" component="article">
                     <List>
                     { colaborators.map( colaborator => <Item key={ colaborator.id } {...colaborator}/>)}
                     </List>

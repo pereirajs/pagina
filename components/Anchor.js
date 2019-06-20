@@ -10,6 +10,7 @@ const Anchor = ({ children, ...props }) => (
         margin: auto 10px;
         padding-left: 10px;
         padding-right: 10px;
+        cursor: pointer;
       }
       a:before {
           margin: auto 10px;

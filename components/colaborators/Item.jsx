@@ -32,7 +32,7 @@ export default class Item extends React.Component {
                     }
                     .itemColaborator {
                         display:flex;
-                        background: url('/static/colaborators/andres_rodriguez.JPG');
+                        background: url('/static/colaborators/alejandro_rendon_.JPG');
                         width: var(--width-item);
                         height: var(--height-item);
                         border-radius: 50%;

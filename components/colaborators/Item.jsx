@@ -7,9 +7,10 @@ import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-ic
 
 export default class Item extends React.Component {
     render() {
-        const { name } = this.props;
+        const { name, avatar } = this.props;
+        const bgImage = { backgroundImage: `url(${avatar})`};
         return(
-            <article className="itemColaborator">
+            <article className="itemColaborator" style={ bgImage }>
                 <div className="opacity">
                     <div className="contentItem">
                         <A> { name } </A>

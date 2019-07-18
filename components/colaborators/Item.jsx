@@ -1,13 +1,13 @@
 import React from 'react';
 import A from '../Anchor';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faTwitter, faLinkedin, faStaylinked } from '@fortawesome/free-brands-svg-icons'
 
 
 
 export default class Item extends React.Component {
     render() {
-        const { name, avatar } = this.props;
+        const { name, avatar, twitter, github, linkedin, web } = this.props;
         const bgImage = { backgroundImage: `url(${avatar})`};
         return(
             <article className="itemColaborator" style={ bgImage }>
@@ -15,9 +15,10 @@ export default class Item extends React.Component {
                     <div className="contentItem">
                         <A> { name } </A>
                         <div className="contentIcons">
-                            <div className="awesomeIcons"><FontAwesomeIcon icon={ faGithub } /></div>
-                            <div className="awesomeIcons"><FontAwesomeIcon icon={ faTwitter } /></div>
-                            <div className="awesomeIcons"><FontAwesomeIcon icon={ faLinkedin } /></div>
+                            { github && (<div className="awesomeIcons" onClick={this.clickLink.bind(this, github)}><FontAwesomeIcon icon={ faGithub } /></div>) }
+                            { twitter && (<div className="awesomeIcons"onClick={this.clickLink.bind(this, twitter)}><FontAwesomeIcon icon={ faTwitter } /></div>) }
+                            { linkedin && (<div className="awesomeIcons"onClick={this.clickLink.bind(this, linkedin)}><FontAwesomeIcon icon={ faLinkedin } /></div>) }
+                            { web && (<div className="awesomeIcons"onClick={this.clickLink.bind(this, web)}><FontAwesomeIcon icon={ faStaylinked } /></div>) }
                         </div>
                     </div>
 
@@ -69,5 +70,12 @@ export default class Item extends React.Component {
                 `}</style>
             </article>
         )
+    }
+
+    clickLink(link) {
+        console.log('link', link)
+        const redirectWindow = window.open(link, '_blank');
+        redirectWindow.location;
+
     }
 }

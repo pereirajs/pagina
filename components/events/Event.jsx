@@ -1,21 +1,21 @@
-
 import A from '../Anchor';
-export default class Event extends React.Component{
-  render(){
-    const { post }= this.props;
-    const { urlApi }= this.props;
-    return(
-        <article
-            className="eventItem"
-            style={{ backgroundImage: `url(${urlApi}${post.feature_image})` }}>
-            <div className="opacity">
-                <div className="eventContent">
-                    <A href={`${urlApi}/${post.slug}`} target="_blank">
-                        {post.title}
-                    </A>
-                </div>
-            </div>
-            <style jsx>{`
+
+export default class Event extends React.Component {
+  render () {
+    const { post } = this.props;
+    const { urlApi } = this.props;
+    return (
+      <article
+        className='eventItem'
+        style={{ backgroundImage: `url(${urlApi}${post.feature_image})` }}>
+        <div className='opacity'>
+          <div className='eventContent'>
+            <A href={`${urlApi}/${post.slug}`} target='_blank'>
+              {post.title}
+            </A>
+          </div>
+        </div>
+        <style jsx>{`
                 .eventItem {
                     width: 33%;
                     height: 250px;
@@ -29,10 +29,10 @@ export default class Event extends React.Component{
                     height: 100%;
                 }
                 .opacity:hover {
-                    opacity: 0.9;
-                    background-color: var(--dark-blue);
-                    transition-property: all;
-                	transition-duration: .9s;
+                  opacity: 0.9;
+                  background-color: var(--dark-blue);
+                  transition-property: all;
+                  transition-duration: .9s;
                 }
 
                 .eventContent {
@@ -44,13 +44,13 @@ export default class Event extends React.Component{
                     opacity: 0;
                 }
                 .eventContent:hover {
-                    opacity: 1;
-                	transition-property: all;
-                	transition-duration: .9s;
+                  opacity: 1;
+                  transition-property: all;
+                  transition-duration: .9s;
                 }
             `}
-            </style>
-        </article>
+        </style>
+      </article>
     );
   }
 }

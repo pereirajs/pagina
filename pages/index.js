@@ -1,29 +1,27 @@
-import Hero from "../components/hero/Hero";
-import Events from "../components/events/Events";
-import AboutUs from "../components/AboutUs";
-import Colaborators from "../components/colaborators/Colaborators"
+import Hero from '../components/hero/Hero';
+import Events from '../components/events/Events';
+import AboutUs from '../components/AboutUs';
+import Collaborators from '../components/collaborators/Collaborators';
 import api from '../api/api';
 
 class Index extends React.Component {
-
-  static async getInitialProps() {
+  static async getInitialProps () {
     const { posts } = await api.posts();
-    const { colaborators } =  api;
-    return { posts, colaborators };
+    const { collaborators } = api;
+    return { posts, collaborators };
   }
 
-  render(){
-    const { posts, colaborators } = this.props;
+  render () {
+    const { posts, collaborators } = this.props;
     return (
       <React.Fragment>
-          <Hero />
-          <Events posts={ posts } urlApi= { api.urlApi }/>
-          <Colaborators colaborators={ colaborators } />
-          <AboutUs />
-        </React.Fragment>
+        <Hero />
+        <Events posts={posts} urlApi={api.urlApi} />
+        <Collaborators collaborators={collaborators} />
+        <AboutUs />
+      </React.Fragment>
     );
   }
-
 }
 
 export default Index;

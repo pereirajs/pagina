@@ -4,10 +4,10 @@ const Content = ({ children, light, component: Component, ...props }) => (
 
     <style jsx>{`
       ${Component} {
-        color: ${light ? "#fff" : "var(--smoke-blue)"};
+        color: ${light ? '#fff' : 'var(--smoke-blue)'};
       }
       ${Component} :global(h1) {
-        color: ${light ? "#fff" : "var(--dark-blue)"};
+        color: ${light ? '#fff' : 'var(--dark-blue)'};
         margin: 0 0 1rem;
         font-weight: bold;
       }
@@ -16,7 +16,7 @@ const Content = ({ children, light, component: Component, ...props }) => (
 );
 
 Content.defaultProps = {
-  component: "div"
+  component: 'div'
 };
 
 export default Content;

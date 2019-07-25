@@ -1,39 +1,39 @@
 {
-    "colaborators": [
-        {
-        "id": 1,
-        "email":"jhonb3r@gmail.com",
-        "name":"Jhon Jimenez",
-        "twitter": "jh0nb3r",
-        "github": "jhonber "
-        },
-        {
-        "id": 2,
-        "email":"exactlimon@gmail.com",
-        "name":"Santiago Bernal",
-        "twitter": "santiaguf",
-        "github": "santiag"
-        },
-        {
-        "id": 3,
-        "email":"xergioalex@gmail.com",
-        "name":"Sergio Alexander Florez Galeano",
-        "twitter":"XergioAleX",
-        "github": "xergioalex"
-        },
-        {
-        "id": 4,
-        "email":"jdmorales092@gmail.com",
-        "name":"John Darwin Morales",
-        "twitter":"jdmorales092",
-        "github": "jdmorales"
-        },
-        {
-        "id": 5,
-        "email":"manuel.felipe.pineda@gmail.com",
-        "name":"Manuel Pineda",
-        "twitter": "pin3da_",
-        "github": "pin3da"
-        }
-    ]
+  "collaborators": [
+    {
+      "id": 1,
+      "email": "jhonb3r@gmail.com",
+      "name": "Jhon Jimenez",
+      "twitter": "jh0nb3r",
+      "github": "jhonber "
+    },
+    {
+      "id": 2,
+      "email": "exactlimon@gmail.com",
+      "name": "Santiago Bernal",
+      "twitter": "santiaguf",
+      "github": "santiag"
+    },
+    {
+      "id": 3,
+      "email": "xergioalex@gmail.com",
+      "name": "Sergio Alexander Florez Galeano",
+      "twitter": "XergioAleX",
+      "github": "xergioalex"
+    },
+    {
+      "id": 4,
+      "email": "jdmorales092@gmail.com",
+      "name": "John Darwin Morales",
+      "twitter": "jdmorales092",
+      "github": "jdmorales"
+    },
+    {
+      "id": 5,
+      "email": "manuel.felipe.pineda@gmail.com",
+      "name": "Manuel Pineda",
+      "twitter": "pin3da_",
+      "github": "pin3da"
+    }
+  ]
 }

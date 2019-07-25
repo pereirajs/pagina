@@ -1,10 +1,10 @@
-const Button = ({children, secondary, ...props}) => {
-  let Component = 'a'
-  const buttonProps = { ...props }
+const Button = ({ children, secondary, ...props }) => {
+  let Component = 'a';
+  const buttonProps = { ...props };
 
   if (!props.hasOwnProperty('href')) {
-    Component = 'button'
-    buttonProps.type = 'button'
+    Component = 'button';
+    buttonProps.type = 'button';
   }
 
   return (
@@ -26,7 +26,7 @@ const Button = ({children, secondary, ...props}) => {
         }
       `}</style>
     </Component>
-  )
-}
+  );
+};
 
-export default Button
+export default Button;

@@ -8,7 +8,7 @@ export default class Events extends React.Component {
     const { posts } = this.props;
     const { urlApi } = this.props;
     return (
-      <section id='eventos'>
+      <section id='events'>
         <Content className='center mw6 tc pv5' component='article'>
           <h1>Eventos</h1>
           <p>

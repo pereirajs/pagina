@@ -7,18 +7,23 @@ const Navbar = () => (
     </a>
     <ul className='flex items-center'>
       <li className='ph2'>
-        <a href='#eventos' title='Ir a Eventos'>
+        <a href='#events' title='Ir a Eventos'>
           Eventos
         </a>
       </li>
       <li className='ph2'>
-        <a href='#patrocinadores' title='Ir a Patrocinadores'>
+        <a href='#sponsors' title='Ir a Patrocinadores'>
           Patrocinadores
         </a>
       </li>
       <li className='ph2'>
-        <a href='#contacto' title='Ir a Contacto'>
-          Contacto
+        <a href='#collaborators' title='Ir a Colaboradores'>
+          Colaboradores
+        </a>
+      </li>
+      <li className='ph2'>
+        <a href='#aboutus' title='Ir a Acerca de nosotros'>
+          Nosotros
         </a>
       </li>
     </ul>

@@ -31,7 +31,6 @@ export default class Item extends React.Component {
                     }
                     .itemCollaborator {
                         display:flex;
-                        background: url('/static/collaborators/alejandro_rendon_.JPG');
                         width: var(--width-item);
                         height: var(--height-item);
                         border-radius: 50%;
@@ -70,7 +69,6 @@ export default class Item extends React.Component {
   }
 
   clickLink (link) {
-    console.log('link', link);
     const redirectWindow = window.open(link, '_blank');
     redirectWindow.location;
   }

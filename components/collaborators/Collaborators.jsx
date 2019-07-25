@@ -8,7 +8,7 @@ export default class Collaborators extends React.Component {
   render () {
     const { collaborators } = this.props;
     return (
-      <section>
+      <section id='collaborators'>
         <Content className='center mw6 tc pv5' component='article'>
           <Header />
         </Content>

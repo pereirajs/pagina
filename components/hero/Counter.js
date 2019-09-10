@@ -1,8 +1,10 @@
 import Button from '../Button';
+import Timer from '../Timer';
 
-const Counter = () => (
+const Counter = (props) => (
   <div>
     <h2>El Próximo evento será en</h2>
+    <Timer time={props.timer}/>
     <Button href='#' className='mt3'>Quiero Asistir</Button>
   </div>
 );

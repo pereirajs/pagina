@@ -1,12 +1,12 @@
 import Navbar from './Navbar';
 import Counter from './Counter';
 
-const Hero = () => (
+const Hero = (props) => (
   <header className='flex flex-column justify-between pb4'>
     <Navbar />
     <div className='hero tc'>
       <h1>Comunidad de Aprendizaje de JavaScript</h1>
-      <Counter />
+      <Counter timer={props.timer}/>
     </div>
     <a className='more db tc'>Conoce más sobre nosotros</a>
 

@@ -1,5 +1,6 @@
 import fetch from 'isomorphic-fetch';
 import data from './data';
+import timer from './timer'
 
 const api = {
   urlApi: 'https://pereiratechtalks.com',
@@ -9,7 +10,8 @@ const api = {
     const data = await response.json();
     return data;
   },
-  collaborators: data.collaborators
+  collaborators: data.collaborators,
+  timer
 };
 
 export default api;

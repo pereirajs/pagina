@@ -1,5 +1,5 @@
 import Button from '../Button';
-import Timer from '../Timer';
+import Timer from '../Timer/Timer';
 
 const Counter = (props) => (
   <div>

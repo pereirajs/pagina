@@ -6,8 +6,9 @@ export default class TimertItem extends React.Component {
                 {value < 10 ?(<span>0{value}</span>):(<span>{value}</span>)}
                 <style jsx>{`
                     .TimerItem {
-                        margin: 10px;
-                        padding: 10px;
+                        font-size: 18px;
+                        margin: 20px;
+                        padding: 20px;
                         background-color: white;
                         color: var(--blue);
                     }

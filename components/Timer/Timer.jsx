@@ -7,6 +7,8 @@ export default class Timer extends React.Component {
     }
     render() {
         const { time } = this.props;
+        const { timeOverMessage } = time;
+        console.log(timeOverMessage);
         return(
             <div>
                 <Countdown
@@ -17,10 +19,11 @@ export default class Timer extends React.Component {
         )
     }
 
+
     parserDate({ days, hours, minutes, seconds, completed }) {
         if (completed) {
             // Render a completed state
-            return <span>You are good to go!</span>;
+            return null;
         } else {
             // Render a countdown
             return (

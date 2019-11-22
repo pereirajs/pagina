@@ -6,14 +6,14 @@ export default class Timer extends React.Component {
         super(props);
     }
     render() {
-        const { time } = this.props;
-        const { timeOverMessage } = time;
-        console.log(timeOverMessage);
+        const { time, onTimeOver } = this.props;
+        console.log(onTimeOver);
         return(
             <div>
                 <Countdown
                     date={new Date(time.timer)}
                     renderer={this.parserDate}
+                    onComplete= {onTimeOver}
                     zeroPadTime={2} />
             </div>
         )

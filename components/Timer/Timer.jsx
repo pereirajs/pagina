@@ -7,11 +7,10 @@ export default class Timer extends React.Component {
     }
     render() {
         const { time, onTimeOver } = this.props;
-        console.log(onTimeOver);
         return(
             <div>
                 <Countdown
-                    date={new Date(time.timer)}
+                    date={new Date(time.timerStart)}
                     renderer={this.parserDate}
                     onComplete= {onTimeOver}
                     zeroPadTime={2} />

@@ -1,13 +1,16 @@
 export default class TimertItem extends React.Component {
     render() {
-        const { value } = this.props;
+        const { value, type } = this.props;
         return (
-            <div className='TimerItem'>
-                <div className="contentDots">
-                    <div className="dots"></div>
-                    <div className="dots"></div>
+            <div className="timerItemContent">
+                <div className='TimerItem'>
+                    <div className="contentDots">
+                        <div className="dots"></div>
+                        <div className="dots"></div>
+                    </div>
+                    {value < 10 ?(<span>0{value}</span>):(<span>{value}</span>)}
                 </div>
-                {value < 10 ?(<span>0{value}</span>):(<span>{value}</span>)}
+                <span>{type}</span>
                 <style jsx>{`
                     .TimerItem {
                         font-size: 64px;

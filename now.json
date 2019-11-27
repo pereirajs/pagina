@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "alias": "pereirajs-webpage",
+    "name": "PereiraJs",
+    "builds": [
+        { "src": "next.config.js", "use": "@now/next" }
+    ]
+}

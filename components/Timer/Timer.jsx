@@ -22,15 +22,22 @@ export default class Timer extends React.Component {
     parserDate({ days, hours, minutes, seconds, completed }) {
         if (completed) {
             // Render a completed state
-            return null;
+            return (
+                <TimerContainer>
+                    <TimerItem value='0'/>
+                    <TimerItem value='0'/>
+                    <TimerItem value='0'/>
+                    <TimerItem value='0'/>
+                </TimerContainer>
+            );
         } else {
             // Render a countdown
             return (
                 <TimerContainer>
-                    <TimerItem value={days}/>
-                    <TimerItem value={hours}/>
-                    <TimerItem value={minutes}/>
-                    <TimerItem value={seconds}/>
+                    <TimerItem value={days} type='Días'/>
+                    <TimerItem value={hours} type='Horas'/>
+                    <TimerItem value={minutes} type='Minutos'/>
+                    <TimerItem value={seconds} type='Segundos'/>
                 </TimerContainer>
             );
         }

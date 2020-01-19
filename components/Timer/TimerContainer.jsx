@@ -9,6 +9,7 @@ export default class TimertItem extends React.Component {
                         display: flex;
                         flex-direction: row;
                         justify-content: center;
+                        flex-wrap: wrap;
                     }
 
                 `}</style>

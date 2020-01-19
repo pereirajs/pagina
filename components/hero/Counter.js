@@ -6,7 +6,8 @@ class Counter extends React.Component {
     super(props);
     this.state = {
       timeOver: 'El Próximo evento será en',
-      btnWannaAsist: 'Quiero Asistir'
+      btnWannaAsist: 'Quiero Asistir',
+      btnAsistEnable: false
     }
     this.handleTimerOver = this.handleTimerOver.bind(this);
   }
@@ -24,9 +25,17 @@ class Counter extends React.Component {
         now.getHours() >= timeMeetupStart.getHours() && now.getHours() <= timeMeetupEnd.getHours()) {
           this.setState({
             timeOver: 'El Meetup está en curso',
-            btnWannaAsist: 'No importa. Quiero Asistir'
+            btnWannaAsist: 'No importa. Quiero Asistir',
+            btnAsistEnable: true
           });      
-    }
+    } else if (now.getMonth() === timeMeetupStart.getMonth() &&
+              now.getDate() === timeMeetupStart.getDate() &&
+              now.getHours() > timeMeetupEnd.getHours()) {
+                this.setState({
+                  timeOver: 'Nuevo Meetup próximamente!!',
+                  btnAsistEnable: false
+                });
+              }
   }
   render() {
     const { timer } = this.props;
@@ -35,14 +44,17 @@ class Counter extends React.Component {
       <div>
         <h2>{ timeOver }</h2>
         <Timer time={timer} onTimeOver={this.handleTimerOver}/>
-        <Button href='#' className='mt3'>{ btnWannaAsist }</Button>
+        {this.state.btnAsistEnable && 
+            <Button href='#' className='mt3'>{ btnWannaAsist }</Button>        
+        }
       </div>
     );
   }
   handleTimerOver() {
     this.setState({
       timeOver: 'El Meetup está en curso',
-      btnWannaAsist: 'No importa. Quiero Asistir'
+      btnWannaAsist: 'No importa. Quiero Asistir',
+      btnAsistEnable: true
     });
   }
 }

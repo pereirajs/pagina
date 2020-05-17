@@ -1,0 +1,94 @@
+{
+  "collaborators": [
+      {
+          "id": 1,
+          "name":"Andrés Rodriguez",
+          "twitter": "https://twitter.com/arodrigueze_",
+          "github": "https://github.com/arodrigueze0215",
+          "linkedin": "https://www.linkedin.com/in/arodrigueze0215/",
+          "web": "",
+          "avatar": "/static/colaborators/andres_rodriguez.jpg"
+      },
+      {
+          "id": 2,
+          "name":"Santiago Bernal",
+          "twitter": "https://twitter.com/santiaguf",
+          "github": "https://github.com/santiaguf",
+          "linkedin": "https://github.com/santiaguf",
+          "web": "https://aumentada.net",
+          "avatar": "/static/colaborators/santiago_bernal.jpg"
+      },
+      {
+          "id": 3,
+          "name":"Sergio Florez",
+          "twitter":"https://twitter.com/XergioAleX",
+          "github": "https://github.com/xergioalex",
+          "linkedin": "https://www.linkedin.com/in/xergioalex/",
+          "web": "",
+          "avatar": "/static/colaborators/sergio_florez.jpg"
+      },
+      {
+          "id": 4,
+          "name":"John Morales",
+          "twitter":"https://twitter.com/jdmorales092",
+          "github": "https://github.com/jdmorales92",
+          "linkedin": "https://github.com/jdmorales92",
+          "web": "",
+          "avatar": "/static/colaborators/john_morales.jpg"
+      },
+      {
+          "id": 5,
+          "name":"Manuel Pineda",
+          "twitter": "https://twitter.com/pin3da_",
+          "github": "https://github.com/pin3da",
+          "linkedin": "https://www.linkedin.com/in/mfpineda/",
+          "web": "",
+          "avatar": "/static/colaborators/manuel_pineda.jpg"
+      },
+      {
+          "id": 6,
+          "name":"Alejandro Rendón",
+          "twitter": "https://twitter.com/arendondiosa",
+          "github": "https://github.com/arendondiosa",
+          "linkedin": "https://www.linkedin.com/in/arendondiosa/",
+          "web": "",
+          "avatar": "/static/colaborators/alejandro_rendon.jpg"
+      },
+      {
+          "id": 7,
+          "name":"Hector Jimenez",
+          "twitter": "https://twitter.com/c1b3rh4ck",
+          "github": "https://github.com/h3ct0rjs",
+          "linkedin": "https://www.linkedin.com/in/hectorjimenezs/",
+          "web": "https://h3ct0rjs.github.io/vitae/",
+          "avatar": "/static/colaborators/hector_jimenez.jpg"
+      },
+      {
+          "id": 8,
+          "name":"Natalia Moncada",
+          "twitter": "https://twitter.com/natamonkada",
+          "github": "",
+          "linkedin": "https://www.linkedin.com/in/natalia-moncada-suarez-b952a1164/",
+          "web": "",
+          "avatar": "/static/colaborators/natalia_moncada.jpg"
+      },
+      {
+          "id": 9,
+          "name":"Harold Sanchez",
+          "twitter": "https://twitter.com/sancospi",
+          "github": "https://github.com/sancospi",
+          "linkedin": "",
+          "web": "",
+          "avatar": "/static/colaborators/harold_sanchez.jpg"
+      },
+      {
+          "id": 10,
+          "name":"Jhonatan Barrera",
+          "twitter": "https://twitter.com/iam3mer",
+          "github": "https://github.com/iam3mer",
+          "linkedin": "https://www.linkedin.com/in/baorjs/",
+          "web": "http://iam3mer.xyz/",
+          "avatar": "/static/colaborators/jhonatan_barrera.jpg"
+      }
+  ]
+}

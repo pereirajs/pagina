@@ -1,6 +1,6 @@
 {
   "name": "pereirajs",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "Página de PereiraJS",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,14 @@
   "author": "@pereirajs",
   "license": "ISC",
   "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "isomorphic-fetch": "^2.2.1",
     "next": "^7.0.1",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "semistandard": "^13.0.1"
   }
 }

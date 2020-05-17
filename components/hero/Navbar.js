@@ -1,24 +1,29 @@
-import Logo from '../Logo'
+import Logo from '../Logo';
 
 const Navbar = () => (
-  <nav className="flex items-center justify-between mw8 center pv3 w-100">
-    <a href="/">
+  <nav className='flex items-center justify-between mw8 center pv3 w-100'>
+    <a href='/'>
       <Logo />
     </a>
-    <ul className="flex items-center">
-      <li className="ph2">
-        <a href="#eventos" title="Ir a Eventos">
+    <ul className='flex items-center'>
+      <li className='ph2'>
+        <a href='#events' title='Ir a Eventos'>
           Eventos
         </a>
       </li>
-      <li className="ph2">
-        <a href="#patrocinadores" title="Ir a Patrocinadores">
+      <li className='ph2'>
+        <a href='#sponsors' title='Ir a Patrocinadores'>
           Patrocinadores
         </a>
       </li>
-      <li className="ph2">
-        <a href="#contacto" title="Ir a Contacto">
-          Contacto
+      <li className='ph2'>
+        <a href='#collaborators' title='Ir a Colaboradores'>
+          Colaboradores
+        </a>
+      </li>
+      <li className='ph2'>
+        <a href='#aboutus' title='Ir a Acerca de nosotros'>
+          Nosotros
         </a>
       </li>
     </ul>

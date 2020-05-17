@@ -8,6 +8,6 @@ const Logo = () => (
       }
     `}</style>
   </span>
-)
+);
 
-export default Logo
+export default Logo;

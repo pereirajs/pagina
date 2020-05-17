@@ -127,4 +127,6 @@ a {
   --smoke-blue: #436976;
   --dark-blue: #102e40;
   --darken-blue: #031124;
+  --width-item: 200px;
+  --height-item: 200px;
 }

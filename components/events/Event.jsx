@@ -17,7 +17,7 @@ export default class Event extends React.Component {
         </div>
         <style jsx>{`
                 .eventItem {
-                    width: 33%;
+                    width: calc(100% / 3);
                     height: 250px;
                     background-position: 50% 50%;
                     background-size: cover;
@@ -47,6 +47,16 @@ export default class Event extends React.Component {
                   opacity: 1;
                   transition-property: all;
                   transition-duration: .9s;
+                }
+                @media only screen and (max-width: 960px) {
+                  .eventItem {
+                    width: calc(100% / 2);
+                  }
+                }
+                @media only screen and (max-width: 600px) {
+                  .eventItem {
+                    width: 100%;
+                  }
                 }
             `}
         </style>

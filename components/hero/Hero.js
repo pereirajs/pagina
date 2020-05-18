@@ -1,28 +1,29 @@
-import Navbar from './Navbar';
 import Counter from './Counter';
 
 const Hero = (props) => (
-  <header className='flex flex-column justify-between pb4'>
-    <Navbar />
-    <div className='hero tc'>
+  <section className='flex flex-column justify-between pb4 hero-section'>
+    <div className='tc hero'>
       <h1>Comunidad de Aprendizaje de JavaScript</h1>
       <Counter timer={props.timer}/>
     </div>
     <a className='more db tc'>Conoce más sobre nosotros</a>
 
     <style jsx>{`
-      header {
+      .hero-section {
         background-color: var(--blue);
         height: 95vh;
         color: white;
         background: url('/static/hero-bg.jpg') center top;
         background-size: cover;
       }
+      .hero {
+        margin-top: 176px;
+      }
       a {
         color: white;
       }
     `}</style>
-  </header>
+  </section>
 );
 
 export default Hero;
